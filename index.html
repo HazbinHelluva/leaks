@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hazbin and Helluva leaks web archive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Hazbin and Helluva leaks web archive</h1>
+        <a href="https://t.me/hazbinleak" class="text-primary" target="_blank">My telegram channel</a>
+    </header>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <!-- Боковое меню с фильтрами -->
+            <div class="col-md-3">
+                <div class="sidebar p-3 bg-light">
+                    <h4>Filters</h4>
+                    <div class="filter-group">
+                        <h5>Episode number</h5>
+                        <label><input type="checkbox" class="filter" value="Episode 2"> <span class="tag Episode-2">Episode 2</span></label>
+                        <label><input type="checkbox" class="filter" value="Episode 4"> <span class="tag Episode-4">Episode 4</span></label>
+                        <label><input type="checkbox" class="filter" value="Episode 6"> <span class="tag Episode-6">Episode 6</span></label>
+                    </div>
+                    <div class="filter-group">
+                        <h5>Type of leak</h5>
+                        <label><input type="checkbox" class="filter" value="Full episode"> <span class="tag Full-episode">Full episode</span></label>
+                        <label><input type="checkbox" class="filter" value="Song"> <span class="tag Song">Song</span></label>
+                        <label><input type="checkbox" class="filter" value="Photo"> <span class="tag Photo">Photo</span></label>
+                        <label><input type="checkbox" class="filter" value="Video"> <span class="tag Video">Video</span></label>
+                        <label><input type="checkbox" class="filter" value="Fake"> <span class="tag Fake">Fake</span></label>
+                        <label><input type="checkbox" class="filter" value="Other"> <span class="tag Other">Other</span></label>
+                    </div>
+                    <div class="filter-group">
+                        <h5>Other</h5>
+                        <label><input type="checkbox" class="filter" value="Fake"> <span class="tag Fake">Fake</span></label>
+                        <label><input type="checkbox" class="filter" value="Other"> <span class="tag Other">Other</span></label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Галерея -->
+            <div class="col-md-9">
+                <div class="input-group mb-3 p-3">
+                    <input type="text" id="search-input" class="form-control" placeholder="Search by title...">
+                </div>
+                <div id="gallery" class="row"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
