@@ -43,7 +43,6 @@ function renderItems(itemsToRender) {
     gallery.innerHTML = '';
     itemsToRender.forEach(item => {
         const div = document.createElement('div');
-        div.className = 'col-md-4';
         const card = document.createElement('div');
         card.className = 'card item';
         if (item.tags.includes("Video")) {
