@@ -5,7 +5,7 @@ const items = [
         description: "Scene from Episode 2.",
         tags: ["Episode 2", "Video"],
         media: "https://www.pexels.com/video/video-of-forest-854982/",
-        download: "https://www.pexels.com/video/video-of-forest-854982/"
+        download: "leaks/test.jpg"
     },
     {
         title: "Episode 4 - Photo 1",
@@ -58,8 +58,8 @@ function renderItems(itemsToRender) {
         });
         cardBody.appendChild(tagsDiv);
         const a = document.createElement('a');
-        a.href = item.download;
-        a.download = item.title.replace(/\s+/g, '-') + (item.tags.includes("Video") ? ".mp4" : ".jpg");
+        a.href = `${item.download}`;
+        a.download = `${item.title}${item.tags.includes("Video") ? ".mp4" : ".jpg"}`;
         a.className = 'btn btn-download';
         const icon = document.createElement('i');
         icon.className = 'fas fa-download me-2';

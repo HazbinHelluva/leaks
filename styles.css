@@ -35,13 +35,13 @@ header a {
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 0.9em;
-    margin-right: 5px;
+    margin: 5px;
     display: inline-block;
     color: #fff;
 }
 
 .Episode-2 { background-color: #FF5733; }
-.Episode-4 { background-color: #33FF57; }
+.Episode-4 { background-color: #4ce668; }
 .Episode-6 { background-color: #3357FF; }
 .Full-episode { background-color: #FF33FF; }
 .Song { background-color: #FFC300; }
