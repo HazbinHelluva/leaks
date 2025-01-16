@@ -13,6 +13,27 @@ const items = [
         tags: ["Episode 4", "Photo"],
         media: "https://images.pexels.com/photos/15286/pexels-photo.jpg",
         download: "https://images.pexels.com/photos/15286/pexels-photo.jpg"
+    },
+    {
+        title: "Episode 4 - Photo 1",
+        description: "Photo from Episode 4.",
+        tags: ["Episode 4", "Photo"],
+        media: "https://images.pexels.com/photos/15286/pexels-photo.jpg",
+        download: "https://images.pexels.com/photos/15286/pexels-photo.jpg"
+    },
+    {
+        title: "Episode 4 - Photo 1",
+        description: "Photo from Episode 4.",
+        tags: ["Episode 4", "Photo"],
+        media: "https://images.pexels.com/photos/15286/pexels-photo.jpg",
+        download: "https://images.pexels.com/photos/15286/pexels-photo.jpg"
+    },
+    {
+        title: "Episode 4 - Photo 1",
+        description: "Photo from Episode 4.",
+        tags: ["Episode 4", "Photo"],
+        media: "https://images.pexels.com/photos/15286/pexels-photo.jpg",
+        download: "https://images.pexels.com/photos/15286/pexels-photo.jpg"
     }
 ];
 
@@ -92,5 +113,29 @@ document.getElementById('search-input').addEventListener('input', filterItems);
 document.querySelectorAll('.filter').forEach(filter => 
     filter.addEventListener('change', filterItems)
 );
+
+// Светлая и темная тема
+document.addEventListener('DOMContentLoaded', function() {
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const body = document.body;
+
+    if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-theme');
+        themeIcon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+    themeToggleBtn.addEventListener('click', function() {
+        body.classList.toggle('dark-theme');
+
+        if (body.classList.contains('dark-theme')) {
+            themeIcon.classList.replace('fa-moon', 'fa-sun');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            themeIcon.classList.replace('fa-sun', 'fa-moon');
+            localStorage.setItem('theme', 'light');
+        }
+    });
+});
 
 renderItems(items);
