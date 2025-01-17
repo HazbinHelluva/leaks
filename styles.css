@@ -51,6 +51,8 @@ header a {
 .Video { background-color: #FF8C00; }
 .Russian-subs {background-color: #ef7e87;}
 .English-subs {background-color: #8700b8;}
+.Ref-sheet {background-color: #329a3c;}
+.BG {background-color: #9763a9;}
 .Fake { background-color: #C70039; }
 .Other { background-color: #0072B2; }
 
@@ -107,9 +109,8 @@ header a {
 }
 
 .btn-download:hover {
-    background-color: #3e4351;
+    background-color: #4f5464;
     color: #fff !important;
-    transform: scale(1.03);
 }
 
 /* Темная тема */
@@ -144,9 +145,8 @@ header a {
 }
 
 .dark-theme .btn-download:hover {
-    background-color: #53beec;
+    background-color: #47b2df;
     color: #121212 !important;
-    transform: scale(1.03);
 }
 
 .dark-theme .card-body h5{
