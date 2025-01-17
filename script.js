@@ -137,4 +137,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Функция для установки колонок
+function setColumns(count) {
+    document.documentElement.style.setProperty('--columns-count', count);
+    localStorage.setItem('galleryColumns', count);
+}
+
+// Загрузка сохраненного значению, по умолчанию 3
+document.addEventListener('DOMContentLoaded', function () {
+    const savedColumns = localStorage.getItem('galleryColumns') || "3";
+    document.getElementById('columns-select').value = savedColumns;
+    setColumns(savedColumns);
+});
+
+document.getElementById('columns-select').addEventListener('change', function() {
+    setColumns(this.value);
+});
+
 renderItems(items);
