@@ -10,7 +10,7 @@ const items = [
             ru: "Лилит сидит в своем саду и получает сообщение, после чего уходит. Это сцена из 2 серии"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/LilithGarden.mp4"
+        media: "leaks/ep2/animatics/LilithsGarden.mp4"
     },
     {
         title: {
@@ -22,7 +22,7 @@ const items = [
             ru: "На суде было принято решение, что Сэр Пентиус остается в раю. Лют не согласна с этим решением"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/LuteAndSera01.mp4"
+        media: "leaks/ep2/animatics/LuteAndSera1.mp4"
     },
     {
         title: {
@@ -34,7 +34,7 @@ const items = [
             ru: "Ангелы пытаются понять, как Пентиус попал в рай. Лют хочет действий. Впервые здесь появляется Говорящая Бога и Авель"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/LuteAndSera02.mp4"
+        media: "leaks/ep2/animatics/LuteAndSera2.mp4"
     },
     {
         title: {
@@ -46,7 +46,7 @@ const items = [
             ru: "Pentious tells his story to the Speaker of God. We learn about his human life, why he went to hell and how he was redeemed"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/PentiousBackstory.mp4"
+        media: "leaks/ep2/animatics/SirPentiousBackstory.mp4"
     },
     {
         title: {
@@ -58,7 +58,7 @@ const items = [
             ru: "Эмили собирается показать Пентиусу рай, в то время как Лют пытается убедить Серу изменить решение, упоминая, что сказала Лилит остановить дочь"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/PentiousEmilyLuteSera.mp4"
+        media: "leaks/ep2/animatics/SirPentiousEmilyLuteSera.mp4"
     },
     {
         title: {
@@ -70,7 +70,7 @@ const items = [
             ru: ""
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/PentiousMissesFriends.mp4"
+        media: "leaks/ep2/animatics/SirPentiousMissesFriends.mp4"
     },
     {
         title: {
@@ -82,7 +82,7 @@ const items = [
             ru: ""
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/PentiousOnCourt.mp4"
+        media: "leaks/ep2/animatics/SirPentiousOnCourt.mp4"
     },
     {
         title: {
