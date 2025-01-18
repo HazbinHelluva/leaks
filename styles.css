@@ -11,6 +11,13 @@ header {
     text-align: center;
 }
 
+.buttons-container {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
 header a {
     color: #61dafb;
     text-decoration: none;
@@ -43,7 +50,7 @@ header a {
 }
 
 .Episode-2 { background-color: #FF5733; }
-.Episode-4 { background-color: #4ce668; }
+.Episode-4 { background-color: #3fe05d; }
 .Episode-6 { background-color: #3357FF; }
 .Full-episode { background-color: #FF33FF; }
 .Song { background-color: #FFC300; }
@@ -53,7 +60,10 @@ header a {
 .English-subs {background-color: #8700b8;}
 .Ref-sheet {background-color: #329a3c;}
 .BG {background-color: #9763a9;}
+.Hazbin-Hotel {background-color: #22396f;}
+.Helluva-Boss {background-color: #681f2c;}
 .Fake { background-color: #C70039; }
+.Obsolete { background-color: #d7a21c; }
 .Other { background-color: #0072B2; }
 
 /* Количество элементов в ряд (1-3) */
@@ -64,6 +74,7 @@ header a {
 #gallery {
     display: grid;
     grid-template-columns: repeat(var(--columns-count), 1fr);
+    row-gap: 20px;
 }
 
 .item {
@@ -71,7 +82,6 @@ header a {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
 }
 
 .item img, .item video {
@@ -91,8 +101,28 @@ header a {
     color: #555;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title {
+    min-height: 40px;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
 .tags {
-    margin: 10px;
+    margin-top: auto;
 }
 
 .btn-download {
@@ -155,4 +185,9 @@ header a {
 
 .dark-theme .card-body p{
     color: #eeeeee;
+}
+
+#result-count {
+    margin-left: 5px;
+    margin-bottom: 15px;
 }
