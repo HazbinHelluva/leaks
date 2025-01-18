@@ -256,6 +256,23 @@ document.addEventListener('DOMContentLoaded', function() {
 function setColumns(count) {
     document.documentElement.style.setProperty('--columns-count', count);
     localStorage.setItem('galleryColumns', count);
+
+    // Устанавливаем высоту элемента в зависимости от количества колонок
+    let height;
+    switch (count) {
+        case "1":
+            height = "350px";
+            break;
+        case "2":
+            height = "250px";
+            break;
+        case "3":
+            height = "200px";
+            break;
+        default:
+            height = "200px";
+    }
+    document.documentElement.style.setProperty('--item-height', height);
 }
 
 // Загрузка сохраненного значению, по умолчанию 3
