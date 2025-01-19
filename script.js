@@ -63,7 +63,7 @@ const items = [
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/animatics/SirPentiousEmilyLuteSera.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/SirPentiousEmilyLuteSera.jpg"
     },
     {
         title: {
@@ -76,7 +76,7 @@ const items = [
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/animatics/SirPentiousMissesFriends.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/SirPentiousMissesFriends.jpg"
     },
     {
         title: {
@@ -89,7 +89,7 @@ const items = [
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/animatics/SirPentiousOnCourt.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/SirPentiousOnCourt.jpg"
     },
     {
         title: {
@@ -102,7 +102,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/songs/Gravity.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/Gravity.jpg"
     },
     {
         title: {
@@ -115,7 +115,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video",, "Hazbin Hotel", "Other"],
         media: "leaks/ep2/songs/GravityDemo.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/GravityDemo.jpg"
     },
     {
         title: {
@@ -128,7 +128,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/songs/HeavenSong.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/HeavenSong.jpg"
     },
     {
         title: {
@@ -141,7 +141,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video", "English subs", "Hazbin Hotel"],
         media: "leaks/ep2/songs/heaven en @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/heaven en @hazbinleak.jpg"
     },
     {
         title: {
@@ -154,7 +154,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video", "Russian subs", "Hazbin Hotel"],
         media: "leaks/ep2/songs/heaven rus @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/heaven rus @hazbinleak.jpg"
     },
     {
         title: {
@@ -167,7 +167,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video", "English subs", "Hazbin Hotel"],
         media: "leaks/ep2/songs/lute en @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/lute en @hazbinleak.jpg"
     },
     {
         title: {
@@ -180,7 +180,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video", "Russian subs", "Hazbin Hotel"],
         media: "leaks/ep2/songs/lute rus @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/lute rus @hazbinleak.jpg"
     },
     {
         title: {
@@ -193,7 +193,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/songs/Sera and Speaker of God Song.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/Sera and Speaker of God Song.jpg"
     },
     {
         title: {
@@ -206,7 +206,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video", "English subs", "Hazbin Hotel"],
         media: "leaks/ep2/songs/sera en @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/sera en @hazbinleak.jpg"
     },
     {
         title: {
@@ -219,7 +219,7 @@ const items = [
         },
         tags: ["Episode 2", "Song", "Video", "Russian subs", "Hazbin Hotel"],
         media: "leaks/ep2/songs/sera rus @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/sera rus @hazbinleak.jpg"
     },
     {
         title: {
@@ -232,7 +232,7 @@ const items = [
         },
         tags: ["Episode 2", "Full episode", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/full2Ep.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/full2Ep.jpg"
     },
     {
         title: {
@@ -244,8 +244,8 @@ const items = [
             ru: "Полный 25 минутный эпизод с русскими субтитрами. К сожалению, я не смогла найти автора, это видео отправили в мой телеграм чат, но оно было переслано, к тому же от пользователя с закрытым профилем"
         },
         tags: ["Episode 2", "Full episode", "Video", "Russian subs", "Hazbin Hotel"],
-        media: "",
-        preview: "preview/.jpg"
+        media: "leaks/ep2/ep2rus.mp4",
+        preview: "preview/ep2rus.jpg"
     },
     {
         title: {
@@ -258,7 +258,7 @@ const items = [
         },
         tags: ["Episode 4", "Video", "Hazbin Hotel"],
         media: "leaks/ep4/animatics/alastor backstory.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/alastor backstory.jpg"
     },
     {
         title: {
@@ -271,7 +271,7 @@ const items = [
         },
         tags: ["Episode 4", "Video", "Hazbin Hotel"],
         media: "leaks/ep4/animatics/charlie in news.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/charlie in news.jpg"
     },
     {
         title: {
@@ -284,7 +284,7 @@ const items = [
         },
         tags: ["Episode 4", "Video", "Hazbin Hotel", "Other"],
         media: "leaks/ep4/animatics/start.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/start.jpg"
     },
     {
         title: {
@@ -297,7 +297,7 @@ const items = [
         },
         tags: ["Episode 4", "Song", "Video", "Hazbin Hotel"],
         media: "leaks/ep4/songs/YouAreMyPet.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/YouAreMyPet.jpg"
     },
     {
         title: {
@@ -310,7 +310,7 @@ const items = [
         },
         tags: ["Episode 4", "Song", "Video", "English subs", "Hazbin Hotel"],
         media: "leaks/ep4/songs/rosie en sub @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/rosie en sub @hazbinleak.jpg"
     },
     {
         title: {
@@ -323,7 +323,7 @@ const items = [
         },
         tags: ["Episode 4", "Song", "Video", "Russian subs", "Hazbin Hotel"],
         media: "leaks/ep4/songs/rosie rus sub @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/rosie rus sub @hazbinleak.jpg"
     },
     {
         title: {
@@ -336,7 +336,7 @@ const items = [
         },
         tags: ["Episode 4", "Full episode", "Video", "Hazbin Hotel"],
         media: "leaks/ep4/full4.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/full4.jpg"
     },
     {
         title: {
@@ -349,7 +349,7 @@ const items = [
         },
         tags: ["Episode 4", "Full episode", "Video", "Russian subs", "Hazbin Hotel"],
         media: "leaks/ep4/full 4 with subtitles @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/full 4 with subtitles @hazbinleak.jpg"
     },
     {
         title: {
@@ -362,7 +362,7 @@ const items = [
         },
         tags: ["Episode 6", "Video", "Hazbin Hotel"],
         media: "leaks/ep6/episode6vox.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/episode6vox.jpg"
     },
     {
         title: {
@@ -375,7 +375,7 @@ const items = [
         },
         tags: ["Episode 6", "Video", "English subs", "Hazbin Hotel"],
         media: "leaks/ep6/ep6 en sub @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/ep6 en sub @hazbinleak.jpg"
     },
     {
         title: {
@@ -388,7 +388,7 @@ const items = [
         },
         tags: ["Episode 6", "Video", "Russian subs", "Hazbin Hotel"],
         media: "leaks/ep6/ep6 rus sub @hazbinleak.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/ep6 rus sub @hazbinleak.jpg"
     },
     {
         title: {
@@ -396,12 +396,12 @@ const items = [
             ru: "Раскрашенный фанатом отрывок из 6 серии" 
         },
         description: {
-            en: "Unfortunately I don't know the author, but perhaps the watermark on the extract is his",
-            ru: "К сожалению не знаю автора, но возможно водяной знак на отрывке его"
+            en: "Unfortunately I don't know the author, but perhaps the watermark on the extract is his. Subtitles by me",
+            ru: "К сожалению не знаю автора, но возможно водяной знак на отрывке его. Субтитры мои"
         },
         tags: ["Episode 6", "Video", "English subs", "Hazbin Hotel", "Other"],
         media: "leaks/ep6/FanColored.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/FanColored.jpg"
     },
     {
         title: {
@@ -414,7 +414,7 @@ const items = [
         },
         tags: ["Video", "Helluva Boss", "Fake"],
         media: "leaks/Fake/BlitzAndAndre.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/BlitzAndAndre.jpg"
     },
     {
         title: {
@@ -427,7 +427,7 @@ const items = [
         },
         tags: ["Video", "Helluva Boss", "Fake"],
         media: "leaks/Fake/Octavia.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/Octavia.jpg"
     },
     {
         title: {
@@ -440,7 +440,7 @@ const items = [
         },
         tags: ["Song", "Video", "Helluva Boss", "Fake"],
         media: "leaks/Fake/StrikerSong.mp4",
-        preview: "preview/.jpg"
+        preview: "preview/StrikerSong.jpg"
     },
     {
         title: {

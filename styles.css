@@ -208,9 +208,6 @@ header a {
 
 .play-btn, .stop-btn {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
@@ -223,6 +220,17 @@ header a {
     align-items: center;
     gap: 8px;
     pointer-events: auto; /* Разрешает клик */
+}
+
+.play-btn {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stop-btn {
+    top: 10px;
+    right: 10px;
 }
 
 .play-btn:hover, .stop-btn:hover {
