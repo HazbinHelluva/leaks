@@ -309,7 +309,7 @@ const items = [
             en: `It's not actually a full episode, just the first 10 minutes. But it's the biggest leaked snippet of this episode, so I decided to mark it as full so it doesn't get lost among the other snippets. The title "It's a Deal" is confirmed.`,
             ru: `На самом деле это не полный эпизод, а только первые 10 минут. Но это самый большой слитый отрывок этой серии, и я решила отметить его как полный, чтобы он не затерялся среди других отрывков. Название "It's a Deal" подтверждено`
         },
-        tags: ["Episode 4", "Full episode", "Hazbin Hotel"],
+        tags: ["Episode 4", "Full episode", "Video", "Hazbin Hotel"],
         media: "leaks/ep4/full4.mp4"
     },
     {
@@ -321,36 +321,92 @@ const items = [
             en: "The subtitles are made by me and I also added my channel watermark over the leaker's watermark. Where there was no watermark, I didn't add one",
             ru: "Субтитры сделаны мной и я также добавила водяной знак своего канала поверх водяного знака сливщика. Где водяного знака не было, я не добавляла"
         },
-        tags: ["Episode 4", "Full episode", "Russian subs", "Hazbin Hotel"],
+        tags: ["Episode 4", "Full episode", "Video", "Russian subs", "Hazbin Hotel"],
         media: "leaks/ep4/full 4 with subtitles @hazbinleak.mp4"
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "Beginning of Episode 6 - Weapon of Mass Distraction",
+            ru: "Начало 6 эпизода - Weapon of Mass Distraction (Оружие массового отвлечения)" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: 'This 15 second snippet from the beginning of the episode is all we have on episode 6. All the other clips are fake. The title "Weapon of Mass Distraction" is confirmed.',
+            ru: 'Этот 15 секундный отрывок из начала эпизода - все что у нас есть по 6 эпизоду. Все остальные отрывки фейк. Название "Weapon of Mass Distraction" подтверждено'
         },
-        tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
-            "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
-        ],
-        media: "leaks/ep4/songs/.mp4"
+        tags: ["Episode 6", "Video", "Hazbin Hotel"],
+        media: "leaks/ep6/episode6vox.mp4"
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "Beginning of Episode 6 - Weapon of Mass Distraction with English subtitles",
+            ru: "Начало 6 эпизода - Weapon of Mass Distraction (Оружие массового отвлечения) с английскими субтитрами" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "Subtitles made by me. Also this episode was leaked in 3 excerpts and the second one was unofficially coloured (unfortunately I don't know by whom) and I used the coloured version",
+            ru: "Субтитры сделаны мной. Также этот эпизод был слит в 3 отрывках и второй был неофициально раскрашен (к сожалению не знаю кем), и я использовала раскрашенный вариант"
         },
-        tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
-            "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
-        ],
-        media: "leaks/ep4/songs/.mp4"
+        tags: ["Episode 6", "Video", "English subs", "Hazbin Hotel"],
+        media: "leaks/ep6/ep6 en sub @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "Beginning of Episode 6 - Weapon of Mass Distraction with Russian subtitles",
+            ru: "Начало 6 эпизода - Weapon of Mass Distraction (Оружие массового отвлечения) с русскими субтитрами" 
+        },
+        description: {
+            en: "Subtitles made by me. Also this episode was leaked in 3 excerpts and the second one was unofficially coloured (unfortunately I don't know by whom) and I used the coloured version",
+            ru: "Субтитры сделаны мной. Также этот эпизод был слит в 3 отрывках и второй был неофициально раскрашен (к сожалению не знаю кем), и я использовала раскрашенный вариант"
+        },
+        tags: ["Episode 6", "Video", "Russian subs", "Hazbin Hotel"],
+        media: "leaks/ep6/ep6 rus sub @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "Fan coloured excerpt from episode 6",
+            ru: "Раскрашенный фанатом отрывок из 6 серии" 
+        },
+        description: {
+            en: "Unfortunately I don't know the author, but perhaps the watermark on the extract is his",
+            ru: "К сожалению не знаю автора, но возможно водяной знак на отрывке его"
+        },
+        tags: ["Episode 6", "Video", "English subs", "Hazbin Hotel", "Other"],
+        media: "leaks/ep6/FanColored.mp4"
+    },
+    {
+        title: {
+            en: "FAKE | Blitz and Andrealphus' deal in season 3 of Helluva Boss",
+            ru: "ФЕЙК | Сделка Блица и Андреальфуса в 3 сезоне Адского Босса" 
+        },
+        description: {
+            en: "The video is spread in tiktok, the bottom of which is covered with a caption. In this section, the author of the animatics (https://www.youtube.com/@GatsbyBlueArt) wrote that they are fan made",
+            ru: "Видео распространяется в тиктоке, нижняя часть которого закрыта надписью. В этой части автор аниматиков (https://www.youtube.com/@GatsbyBlueArt) писал, что они фанатские"
+        },
+        tags: ["Video", "Helluva Boss", "Fake"],
+        media: "leaks/Fake/BlitzAndAndre.mp4"
+    },
+    {
+        title: {
+            en: "FAKE | Octavia and Stella's new outfits and Goetia's party in season 3 of Helluva Boss",
+            ru: "ФЕЙК | Новые наряды Октавии и Стеллы и вечеринка Гоетии в 3 сезоне Адского Босса" 
+        },
+        description: {
+            en: "The video is spread in tiktok, the bottom of which is covered with a caption. In this section, the author of the animatics (https://www.youtube.com/@GatsbyBlueArt) wrote that they are fan made",
+            ru: "Видео распространяется в тиктоке, нижняя часть которого закрыта надписью. В этой части автор аниматиков (https://www.youtube.com/@GatsbyBlueArt) писал, что они фанатские"
+        },
+        tags: ["Video", "Helluva Boss", "Fake"],
+        media: "leaks/Fake/Octavia.mp4"
+    },
+    {
+        title: {
+            en: "FAKE | Striker's song in season 3 of Helluva Boss",
+            ru: "ФЕЙК | Песня Страйкера в 3 сезоне Адского Босса" 
+        },
+        description: {
+            en: "The video is spread in tiktok, the bottom of which is covered with a caption. In this section, the author of the animatics (https://www.youtube.com/@GatsbyBlueArt) wrote that they are fan made",
+            ru: "Видео распространяется в тиктоке, нижняя часть которого закрыта надписью. В этой части автор аниматиков (https://www.youtube.com/@GatsbyBlueArt) писал, что они фанатские"
+        },
+        tags: ["Song", "Video", "Helluva Boss", "Fake"],
+        media: "leaks/Fake/StrikerSong.mp4"
     },
     {
         title: {
