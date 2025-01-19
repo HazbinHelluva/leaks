@@ -42,8 +42,8 @@ const items = [
             ru: "Предыстория Пентиуса" 
         },
         description: {
-            en: "Пентиус рассказывает Говорящей Бога свою историю. Мы узнаем про его человечкую жизнь, за что он попал в ад и как он искупился",
-            ru: "Pentious tells his story to the Speaker of God. We learn about his human life, why he went to hell and how he was redeemed"
+            en: "Pentious tells his story to the Speaker of God. We learn about his human life, why he went to hell and how he was redeemed",
+            ru: "Пентиус рассказывает Говорящей Бога свою историю. Мы узнаем про его человечкую жизнь, за что он попал в ад и как он искупился"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/animatics/SirPentiousBackstory.mp4"
@@ -66,37 +66,263 @@ const items = [
             ru: "Пентиус скучает по друзьям" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "End of episode 2. Pentious realises he can't return to his friends and cries. The picture on the wall has been drawn by Emily and she has also created angel eggs, but Pentious wants to see his friends in person",
+            ru: "Конец 2 эпизода. Пентиус понимает, что не сможет вернуться к друзьям и плачет. Рисунок на стене нарисовала Эмили и также создала ангельских яиц, но Пентиус хочет увидеться с друзьями вживую"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/animatics/SirPentiousMissesFriends.mp4"
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "Pentius in court",
+            ru: "Пентиус в суде" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "A 10 minute clip from the beginning of episode 2. In it, the angels try to figure out how Pentious got into heaven. Sera changes her mind and believes in redemption, as does everyone else. Lute disagrees and doesn't believe Pentious. It shows his backstory and 2 new characters (Abel and Speaker of God)",
+            ru: "10 минутный отрывок из начала 2 эпизода. В нем ангелы пытаются понять как Пентиус попал в рай. Сера меняет свою точку зрения и верит в искупление, как и все остальные. Лют не согласна и не верит Пентиусу. Здесь показана его предыстория и 2 новых персонажа (Авель и Говорящая Бога)"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
         media: "leaks/ep2/animatics/SirPentiousOnCourt.mp4"
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "Like Gravity - Lute and Adam's song",
+            ru: "Like Gravity - песня Лют и Адама" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "In this song, Adam appears as Lute's hallucination. Lute sings about her intention to revenge Adam's death",
+            ru: "В этой песне Адам появляется как галюцинация Лют. Лют поет о своем намерении отомстить за смерть Адама"
         },
-        tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
-            "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
-        ],
-        media: "leaks/ep2/animatics/.mp4"
+        tags: ["Episode 2", "Song", "Video", "Hazbin Hotel"],
+        media: "leaks/ep2/songs/Gravity.mp4"
+    },
+    {
+        title: {
+            en: "Demo version of Like Gravity song",
+            ru: "Демо версия песни Like Gravity" 
+        },
+        description: {
+            en: "The lyrics and voices are exactly the same, but the processing is different. Only half of the song is in the demo version",
+            ru: "Текст песни и голоса точно такой же, но обработка другая. В демо версии только половина песни"
+        },
+        tags: ["Episode 2", "Song", "Video",, "Hazbin Hotel", "Other"],
+        media: "leaks/ep2/songs/GravityDemo.mp4"
+    },
+    {
+        title: {
+            en: "Emily, Abel, Pentius and St Peter's Song in heaven",
+            ru: "Песня Эмили, Авеля, Пентиуса и Святого Петра в раю" 
+        },
+        description: {
+            en: "Emily shows Pentious heaven and what there is to do here. Abel and St Peter join the song. Pentious sings about wanting to go back to hell to his friends",
+            ru: "Эмили показывает Пентиусу рай и чем тут можно заняться. К песне подключаются Авель и Святой Петр. Пентиус поет о том, что хочет вернуться обратно в ад к своим друзьям"
+        },
+        tags: ["Episode 2", "Song", "Video", "Hazbin Hotel"],
+        media: "leaks/ep2/songs/HeavenSong.mp4"
+    },
+    {
+        title: {
+            en: "Emily, Abel, Pentius and St Peter's Song in heaven with English subtitles",
+            ru: "Песня Эмили, Авеля, Пентиуса и Святого Петра в раю с английскими субтитрами" 
+        },
+        description: {
+            en: "The subtitles are made by me, each character has a different subtitle colour",
+            ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
+        },
+        tags: ["Episode 2", "Song", "Video", "English subs", "Hazbin Hotel"],
+        media: "leaks/ep2/songs/heaven en @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "Emily, Abel, Pentius and St Peter's Song in heaven with Russian subtitles",
+            ru: "Песня Эмили, Авеля, Пентиуса и Святого Петра в раю с русскими субтитрами" 
+        },
+        description: {
+            en: "The subtitles are made by me, each character has a different subtitle colour",
+            ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
+        },
+        tags: ["Episode 2", "Song", "Video", "Russian subs", "Hazbin Hotel"],
+        media: "leaks/ep2/songs/heaven rus @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "Like Gravity - Lute and Adam's song with English subtitles",
+            ru: "Like Gravity - песня Лют и Адама с английскими субтитрами" 
+        },
+        description: {
+            en: "The subtitles are made by me, each character has a different subtitle colour",
+            ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
+        },
+        tags: ["Episode 2", "Song", "Video", "English subs", "Hazbin Hotel"],
+        media: "leaks/ep2/songs/lute en @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "Like Gravity - Lute and Adam's song with Russian subtitles",
+            ru: "Like Gravity - песня Лют и Адама с русскими субтитрами" 
+        },
+        description: {
+            en: "The subtitles are made by me, each character has a different subtitle colour",
+            ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
+        },
+        tags: ["Episode 2", "Song", "Video", "Russian subs", "Hazbin Hotel"],
+        media: "leaks/ep2/songs/lute rus @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "Sera and Speaker of God song",
+            ru: "Песня Серы и Говорящей Бога" 
+        },
+        description: {
+            en: "Sera realised she was wrong about redemption and regretted allowing the exterminations to happen. She wants to make things right, but doesn't know how",
+            ru: "Сера поняла, что ошибалась насчет искупления и жалеет о том, что допустила истребления. Она хочет все исправить, но не знает как"
+        },
+        tags: ["Episode 2", "Song", "Video", "Hazbin Hotel"],
+        media: "leaks/ep2/songs/Sera and Speaker of God Song.mp4"
+    },
+    {
+        title: {
+            en: "Sera and Speaker of God song with English subtitles",
+            ru: "Песня Серы и Говорящей Бога с английскими субтитрами" 
+        },
+        description: {
+            en: "The subtitles are made by me, each character has a different subtitle colour",
+            ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
+        },
+        tags: ["Episode 2", "Song", "Video", "English subs", "Hazbin Hotel"],
+        media: "leaks/ep2/songs/sera en @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "Sera and Speaker of God song with Russian subtitles",
+            ru: "Песня Серы и Говорящей Бога с русскими субтитрами" 
+        },
+        description: {
+            en: "The subtitles are made by me, each character has a different subtitle colour",
+            ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
+        },
+        tags: ["Episode 2", "Song", "Video", "Russian subs", "Hazbin Hotel"],
+        media: "leaks/ep2/songs/sera rus @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "Episode 2 - Storyteller",
+            ru: "Эпизод 2 - Storyteller (Рассказчик)" 
+        },
+        description: {
+            en: 'The full 25 minute episode. Watermark removed by Ryth1m from half of the episode. All events occur in Heaven. The title "Storyteller" is confirmed',
+            ru: 'Полный 25 минутный эпизод. Водяной знак удален Ryth1m с половины эпизода. Все события происходят в Раю. Название "Storyteller" подтверждено'
+        },
+        tags: ["Episode 2", "Full episode", "Video", "Hazbin Hotel"],
+        media: "leaks/ep2/full2Ep.mp4"
+    },
+    {
+        title: {
+            en: "Episode 2 - Storyteller with Russian subtitles",
+            ru: "Эпизод 2 - Storyteller (Рассказчик) с русскими субтитрами" 
+        },
+        description: {
+            en: "Full 25 minute episode with Russian subtitles. Unfortunately I couldn't find the author, this video was sent to my telegram chat, but it was forwarded, moreover from a user with a closed profile",
+            ru: "Полный 25 минутный эпизод с русскими субтитрами. К сожалению, я не смогла найти автора, это видео отправили в мой телеграм чат, но оно было переслано, к тому же от пользователя с закрытым профилем"
+        },
+        tags: ["Episode 2", "Full episode", "Video", "Russian subs", "Hazbin Hotel"],
+        media: ""
+    },
+    {
+        title: {
+            en: "Alastor's backstory",
+            ru: "Предыстория Аластора" 
+        },
+        description: {
+            en: "We see Alastor's human life and his death. It is also shown how he met Rosie and the essence of their deal is revealed, but not completely",
+            ru: "Мы видим человеческую жизнь Аластора и его смерть. Также показано, как он познакомился с Рози и раскрывается суть их сделки, но не полностью"
+        },
+        tags: ["Episode 4", "Video", "Hazbin Hotel"],
+        media: "leaks/ep4/animatics/alastor backstory.mp4"
+    },
+    {
+        title: {
+            en: "Charlie is preparing to speak on the news",
+            ru: "Чарли готовится выступать в новостях" 
+        },
+        description: {
+            en: "Charlie prepares for speaking on 666 News again. Niffty encourages her and shows the word cards",
+            ru: "Чарли готовится снова выступать на 666 News. Ниффти поддерживает ее и показывает карточки с текстом"
+        },
+        tags: ["Episode 4", "Video", "Hazbin Hotel"],
+        media: "leaks/ep4/animatics/charlie in news.mp4"
+    },
+    {
+        title: {
+            en: "The beginning scene of episode 4",
+            ru: "Начальная сцена 4 эпизода" 
+        },
+        description: {
+            en: "A short clip from the beginning of episode 4 without the watermark",
+            ru: "Короткий отрывок из начала 4 эпизода без водяного знака"
+        },
+        tags: ["Episode 4", "Video", "Hazbin Hotel", "Other"],
+        media: "leaks/ep4/animatics/start.mp4"
+    },
+    {
+        title: {
+            en: "You are my pet - Alastor and Rosie's song",
+            ru: "You are my pet - Песня Аластора и Рози" 
+        },
+        description: {
+            en: `Rosie reminds Alastor that his soul belongs to her and we learn that it was at her behest that he disappeared for 7 years. Alastor asks Rosie to fix the staff, but she says she will do it in "due time". The song looks cut off, but that's all there is`,
+            ru: 'Рози напоминает Аластору о том, что его душа принадлежит ей и мы узнаем, что он пропал на 7 лет именно по ее приказу. Аластор просит Рози починить посох, но она говорит что сделает это в "свое время". Песня выглядит обрезанной, но это все что есть'
+        },
+        tags: ["Episode 4", "Song", "Video", "Hazbin Hotel"],
+        media: "leaks/ep4/songs/YouAreMyPet.mp4"
+    },
+    {
+        title: {
+            en: "You are my pet - Alastor and Rosie's song with English subtitles",
+            ru: "You are my pet - Песня Аластора и Рози с английскими субтитрами" 
+        },
+        description: {
+            en: "The subtitles are made by me, each character has a different subtitle colour",
+            ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
+        },
+        tags: ["Episode 4", "Song", "Video", "English subs", "Hazbin Hotel"],
+        media: "leaks/ep4/songs/rosie en sub @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "You are my pet - Alastor and Rosie's song with Russian subtitles",
+            ru: "You are my pet - Песня Аластора и Рози с русскими субтитрами" 
+        },
+        description: {
+            en: "The subtitles are made by me, each character has a different subtitle colour",
+            ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
+        },
+        tags: ["Episode 4", "Song", "Video", "Russian subs", "Hazbin Hotel"],
+        media: "leaks/ep4/songs/rosie rus sub @hazbinleak.mp4"
+    },
+    {
+        title: {
+            en: "Episode 4 - It's a Deal",
+            ru: "Эпизод 4 - It's a Deal (Договорились)" 
+        },
+        description: {
+            en: `It's not actually a full episode, just the first 10 minutes. But it's the biggest leaked snippet of this episode, so I decided to mark it as full so it doesn't get lost among the other snippets. The title "It's a Deal" is confirmed.`,
+            ru: `На самом деле это не полный эпизод, а только первые 10 минут. Но это самый большой слитый отрывок этой серии, и я решила отметить его как полный, чтобы он не затерялся среди других отрывков. Название "It's a Deal" подтверждено`
+        },
+        tags: ["Episode 4", "Full episode", "Hazbin Hotel"],
+        media: "leaks/ep4/full4.mp4"
+    },
+    {
+        title: {
+            en: "Episode 4 - It's a Deal with Russian subtitles",
+            ru: "Эпизод 4 - It's a Deal (Договорились) с русскими субтитрами" 
+        },
+        description: {
+            en: "The subtitles are made by me and I also added my channel watermark over the leaker's watermark. Where there was no watermark, I didn't add one",
+            ru: "Субтитры сделаны мной и я также добавила водяной знак своего канала поверх водяного знака сливщика. Где водяного знака не было, я не добавляла"
+        },
+        tags: ["Episode 4", "Full episode", "Russian subs", "Hazbin Hotel"],
+        media: "leaks/ep4/full 4 with subtitles @hazbinleak.mp4"
     },
     {
         title: {
@@ -110,7 +336,7 @@ const items = [
         tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
             "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
         ],
-        media: "leaks/ep2/animatics/.mp4"
+        media: "leaks/ep4/songs/.mp4"
     },
     {
         title: {
@@ -124,7 +350,7 @@ const items = [
         tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
             "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
         ],
-        media: "leaks/ep2/animatics/.mp4"
+        media: "leaks/ep4/songs/.mp4"
     },
     {
         title: {
@@ -138,7 +364,21 @@ const items = [
         tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
             "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
         ],
-        media: "leaks/ep2/animatics/.mp4"
+        media: "leaks/ep4/songs/.mp4"
+    },
+    {
+        title: {
+            en: "",
+            ru: "" 
+        },
+        description: {
+            en: "",
+            ru: ""
+        },
+        tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
+            "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
+        ],
+        media: "leaks/ep4/songs/.mp4"
     }
 ];
 
