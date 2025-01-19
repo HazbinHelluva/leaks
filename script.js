@@ -10,7 +10,8 @@ const items = [
             ru: "Лилит сидит в своем саду и получает сообщение, после чего уходит. Это сцена из 2 серии"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/LilithsGarden.mp4"
+        media: "leaks/ep2/animatics/LilithsGarden.mp4",
+        preview: "preview/LilithsGarden.jpg"
     },
     {
         title: {
@@ -22,7 +23,8 @@ const items = [
             ru: "На суде было принято решение, что Сэр Пентиус остается в раю. Лют не согласна с этим решением"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/LuteAndSera1.mp4"
+        media: "leaks/ep2/animatics/LuteAndSera1.mp4",
+        preview: "preview/LuteAndSera1.jpg"
     },
     {
         title: {
@@ -34,7 +36,8 @@ const items = [
             ru: "Ангелы пытаются понять, как Пентиус попал в рай. Лют хочет действий. Впервые здесь появляется Говорящая Бога и Авель"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/LuteAndSera2.mp4"
+        media: "leaks/ep2/animatics/LuteAndSera2.mp4",
+        preview: "preview/LuteAndSera2.jpg"
     },
     {
         title: {
@@ -46,7 +49,8 @@ const items = [
             ru: "Пентиус рассказывает Говорящей Бога свою историю. Мы узнаем про его человечкую жизнь, за что он попал в ад и как он искупился"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/SirPentiousBackstory.mp4"
+        media: "leaks/ep2/animatics/SirPentiousBackstory.mp4",
+        preview: "preview/SirPentiousBackstory.jpg"
     },
     {
         title: {
@@ -58,7 +62,8 @@ const items = [
             ru: "Эмили собирается показать Пентиусу рай, в то время как Лют пытается убедить Серу изменить решение, упоминая, что сказала Лилит остановить дочь"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/SirPentiousEmilyLuteSera.mp4"
+        media: "leaks/ep2/animatics/SirPentiousEmilyLuteSera.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -70,7 +75,8 @@ const items = [
             ru: "Конец 2 эпизода. Пентиус понимает, что не сможет вернуться к друзьям и плачет. Рисунок на стене нарисовала Эмили и также создала ангельских яиц, но Пентиус хочет увидеться с друзьями вживую"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/SirPentiousMissesFriends.mp4"
+        media: "leaks/ep2/animatics/SirPentiousMissesFriends.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -82,7 +88,8 @@ const items = [
             ru: "10 минутный отрывок из начала 2 эпизода. В нем ангелы пытаются понять как Пентиус попал в рай. Сера меняет свою точку зрения и верит в искупление, как и все остальные. Лют не согласна и не верит Пентиусу. Здесь показана его предыстория и 2 новых персонажа (Авель и Говорящая Бога)"
         },
         tags: ["Episode 2", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/animatics/SirPentiousOnCourt.mp4"
+        media: "leaks/ep2/animatics/SirPentiousOnCourt.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -94,7 +101,8 @@ const items = [
             ru: "В этой песне Адам появляется как галюцинация Лют. Лют поет о своем намерении отомстить за смерть Адама"
         },
         tags: ["Episode 2", "Song", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/songs/Gravity.mp4"
+        media: "leaks/ep2/songs/Gravity.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -106,7 +114,8 @@ const items = [
             ru: "Текст песни и голоса точно такой же, но обработка другая. В демо версии только половина песни"
         },
         tags: ["Episode 2", "Song", "Video",, "Hazbin Hotel", "Other"],
-        media: "leaks/ep2/songs/GravityDemo.mp4"
+        media: "leaks/ep2/songs/GravityDemo.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -118,7 +127,8 @@ const items = [
             ru: "Эмили показывает Пентиусу рай и чем тут можно заняться. К песне подключаются Авель и Святой Петр. Пентиус поет о том, что хочет вернуться обратно в ад к своим друзьям"
         },
         tags: ["Episode 2", "Song", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/songs/HeavenSong.mp4"
+        media: "leaks/ep2/songs/HeavenSong.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -130,7 +140,8 @@ const items = [
             ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
         },
         tags: ["Episode 2", "Song", "Video", "English subs", "Hazbin Hotel"],
-        media: "leaks/ep2/songs/heaven en @hazbinleak.mp4"
+        media: "leaks/ep2/songs/heaven en @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -142,7 +153,8 @@ const items = [
             ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
         },
         tags: ["Episode 2", "Song", "Video", "Russian subs", "Hazbin Hotel"],
-        media: "leaks/ep2/songs/heaven rus @hazbinleak.mp4"
+        media: "leaks/ep2/songs/heaven rus @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -154,7 +166,8 @@ const items = [
             ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
         },
         tags: ["Episode 2", "Song", "Video", "English subs", "Hazbin Hotel"],
-        media: "leaks/ep2/songs/lute en @hazbinleak.mp4"
+        media: "leaks/ep2/songs/lute en @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -166,7 +179,8 @@ const items = [
             ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
         },
         tags: ["Episode 2", "Song", "Video", "Russian subs", "Hazbin Hotel"],
-        media: "leaks/ep2/songs/lute rus @hazbinleak.mp4"
+        media: "leaks/ep2/songs/lute rus @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -178,7 +192,8 @@ const items = [
             ru: "Сера поняла, что ошибалась насчет искупления и жалеет о том, что допустила истребления. Она хочет все исправить, но не знает как"
         },
         tags: ["Episode 2", "Song", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/songs/Sera and Speaker of God Song.mp4"
+        media: "leaks/ep2/songs/Sera and Speaker of God Song.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -190,7 +205,8 @@ const items = [
             ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
         },
         tags: ["Episode 2", "Song", "Video", "English subs", "Hazbin Hotel"],
-        media: "leaks/ep2/songs/sera en @hazbinleak.mp4"
+        media: "leaks/ep2/songs/sera en @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -202,7 +218,8 @@ const items = [
             ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
         },
         tags: ["Episode 2", "Song", "Video", "Russian subs", "Hazbin Hotel"],
-        media: "leaks/ep2/songs/sera rus @hazbinleak.mp4"
+        media: "leaks/ep2/songs/sera rus @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -214,7 +231,8 @@ const items = [
             ru: 'Полный 25 минутный эпизод. Водяной знак удален Ryth1m с половины эпизода. Все события происходят в Раю. Название "Storyteller" подтверждено'
         },
         tags: ["Episode 2", "Full episode", "Video", "Hazbin Hotel"],
-        media: "leaks/ep2/full2Ep.mp4"
+        media: "leaks/ep2/full2Ep.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -226,7 +244,8 @@ const items = [
             ru: "Полный 25 минутный эпизод с русскими субтитрами. К сожалению, я не смогла найти автора, это видео отправили в мой телеграм чат, но оно было переслано, к тому же от пользователя с закрытым профилем"
         },
         tags: ["Episode 2", "Full episode", "Video", "Russian subs", "Hazbin Hotel"],
-        media: ""
+        media: "",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -238,7 +257,8 @@ const items = [
             ru: "Мы видим человеческую жизнь Аластора и его смерть. Также показано, как он познакомился с Рози и раскрывается суть их сделки, но не полностью"
         },
         tags: ["Episode 4", "Video", "Hazbin Hotel"],
-        media: "leaks/ep4/animatics/alastor backstory.mp4"
+        media: "leaks/ep4/animatics/alastor backstory.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -250,7 +270,8 @@ const items = [
             ru: "Чарли готовится снова выступать на 666 News. Ниффти поддерживает ее и показывает карточки с текстом"
         },
         tags: ["Episode 4", "Video", "Hazbin Hotel"],
-        media: "leaks/ep4/animatics/charlie in news.mp4"
+        media: "leaks/ep4/animatics/charlie in news.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -262,7 +283,8 @@ const items = [
             ru: "Короткий отрывок из начала 4 эпизода без водяного знака"
         },
         tags: ["Episode 4", "Video", "Hazbin Hotel", "Other"],
-        media: "leaks/ep4/animatics/start.mp4"
+        media: "leaks/ep4/animatics/start.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -274,7 +296,8 @@ const items = [
             ru: 'Рози напоминает Аластору о том, что его душа принадлежит ей и мы узнаем, что он пропал на 7 лет именно по ее приказу. Аластор просит Рози починить посох, но она говорит что сделает это в "свое время". Песня выглядит обрезанной, но это все что есть'
         },
         tags: ["Episode 4", "Song", "Video", "Hazbin Hotel"],
-        media: "leaks/ep4/songs/YouAreMyPet.mp4"
+        media: "leaks/ep4/songs/YouAreMyPet.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -286,7 +309,8 @@ const items = [
             ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
         },
         tags: ["Episode 4", "Song", "Video", "English subs", "Hazbin Hotel"],
-        media: "leaks/ep4/songs/rosie en sub @hazbinleak.mp4"
+        media: "leaks/ep4/songs/rosie en sub @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -298,7 +322,8 @@ const items = [
             ru: "Субтитры сделаны мной, у каждого персонажа свой цвет субтитров"
         },
         tags: ["Episode 4", "Song", "Video", "Russian subs", "Hazbin Hotel"],
-        media: "leaks/ep4/songs/rosie rus sub @hazbinleak.mp4"
+        media: "leaks/ep4/songs/rosie rus sub @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -310,7 +335,8 @@ const items = [
             ru: `На самом деле это не полный эпизод, а только первые 10 минут. Но это самый большой слитый отрывок этой серии, и я решила отметить его как полный, чтобы он не затерялся среди других отрывков. Название "It's a Deal" подтверждено`
         },
         tags: ["Episode 4", "Full episode", "Video", "Hazbin Hotel"],
-        media: "leaks/ep4/full4.mp4"
+        media: "leaks/ep4/full4.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -322,7 +348,8 @@ const items = [
             ru: "Субтитры сделаны мной и я также добавила водяной знак своего канала поверх водяного знака сливщика. Где водяного знака не было, я не добавляла"
         },
         tags: ["Episode 4", "Full episode", "Video", "Russian subs", "Hazbin Hotel"],
-        media: "leaks/ep4/full 4 with subtitles @hazbinleak.mp4"
+        media: "leaks/ep4/full 4 with subtitles @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -334,7 +361,8 @@ const items = [
             ru: 'Этот 15 секундный отрывок из начала эпизода - все что у нас есть по 6 эпизоду. Все остальные отрывки фейк. Название "Weapon of Mass Distraction" подтверждено'
         },
         tags: ["Episode 6", "Video", "Hazbin Hotel"],
-        media: "leaks/ep6/episode6vox.mp4"
+        media: "leaks/ep6/episode6vox.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -346,7 +374,8 @@ const items = [
             ru: "Субтитры сделаны мной. Также этот эпизод был слит в 3 отрывках и второй был неофициально раскрашен (к сожалению не знаю кем), и я использовала раскрашенный вариант"
         },
         tags: ["Episode 6", "Video", "English subs", "Hazbin Hotel"],
-        media: "leaks/ep6/ep6 en sub @hazbinleak.mp4"
+        media: "leaks/ep6/ep6 en sub @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -358,7 +387,8 @@ const items = [
             ru: "Субтитры сделаны мной. Также этот эпизод был слит в 3 отрывках и второй был неофициально раскрашен (к сожалению не знаю кем), и я использовала раскрашенный вариант"
         },
         tags: ["Episode 6", "Video", "Russian subs", "Hazbin Hotel"],
-        media: "leaks/ep6/ep6 rus sub @hazbinleak.mp4"
+        media: "leaks/ep6/ep6 rus sub @hazbinleak.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -370,7 +400,8 @@ const items = [
             ru: "К сожалению не знаю автора, но возможно водяной знак на отрывке его"
         },
         tags: ["Episode 6", "Video", "English subs", "Hazbin Hotel", "Other"],
-        media: "leaks/ep6/FanColored.mp4"
+        media: "leaks/ep6/FanColored.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -382,7 +413,8 @@ const items = [
             ru: "Видео распространяется в тиктоке, нижняя часть которого закрыта надписью. В этой части автор аниматиков (https://www.youtube.com/@GatsbyBlueArt) писал, что они фанатские"
         },
         tags: ["Video", "Helluva Boss", "Fake"],
-        media: "leaks/Fake/BlitzAndAndre.mp4"
+        media: "leaks/Fake/BlitzAndAndre.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -394,7 +426,8 @@ const items = [
             ru: "Видео распространяется в тиктоке, нижняя часть которого закрыта надписью. В этой части автор аниматиков (https://www.youtube.com/@GatsbyBlueArt) писал, что они фанатские"
         },
         tags: ["Video", "Helluva Boss", "Fake"],
-        media: "leaks/Fake/Octavia.mp4"
+        media: "leaks/Fake/Octavia.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -406,7 +439,8 @@ const items = [
             ru: "Видео распространяется в тиктоке, нижняя часть которого закрыта надписью. В этой части автор аниматиков (https://www.youtube.com/@GatsbyBlueArt) писал, что они фанатские"
         },
         tags: ["Song", "Video", "Helluva Boss", "Fake"],
-        media: "leaks/Fake/StrikerSong.mp4"
+        media: "leaks/Fake/StrikerSong.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -420,7 +454,8 @@ const items = [
         tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
             "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
         ],
-        media: "leaks/ep4/songs/.mp4"
+        media: "leaks/ep4/songs/.mp4",
+        preview: "preview/.jpg"
     },
     {
         title: {
@@ -434,7 +469,8 @@ const items = [
         tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
             "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
         ],
-        media: "leaks/ep4/songs/.mp4"
+        media: "leaks/ep4/songs/.mp4",
+        preview: "preview/.jpg"
     }
 ];
 
@@ -454,11 +490,67 @@ function renderItems(itemsToRender) {
         const card = document.createElement('div');
         card.className = 'card item';
         if (item.tags.includes("Video")) {
+            const videoContainer = document.createElement('div');
+            videoContainer.className = 'video-container';
+
+            // Загружаем превью-картинку вместо видео
+            const preview = document.createElement('img');
+            preview.src = item.preview;
+            preview.className = 'video-preview';
+            preview.alt = 'Video preview';
+
+            const playButton = document.createElement('i');
+            playButton.className = 'fas fa-play play-btn';
+
+            const stopButton = document.createElement('i');
+            stopButton.className = 'fas fa-stop stop-btn hidden';
+
+            // Контейнер для видео
             const video = document.createElement('video');
-            video.src = item.media;
-            video.controls = true;
             video.className = 'card-img-top';
-            card.appendChild(video);
+            video.setAttribute('controls', '');
+            video.dataset.src = item.media;
+
+            // При клике загружаем видео и начинаем воспроизведение
+            videoContainer.addEventListener('click', function () {
+                video.src = item.media;
+                video.play();
+                preview.remove();
+                playButton.remove();
+                
+                const stopButton = document.createElement('button');
+                stopButton.className = 'stop-btn';
+                stopButton.innerHTML = '<i class="fas fa-stop"></i> Stop';
+                
+                stopButton.addEventListener('click', function (event) {
+                    event.stopPropagation(); // Чтобы не кликалось на видео
+                    video.pause();
+                    video.src = '';
+                    videoContainer.innerHTML = '';
+                    videoContainer.appendChild(preview);
+                    videoContainer.appendChild(playButton);
+                });
+            
+                videoContainer.appendChild(stopButton);
+                videoContainer.appendChild(video);
+            });
+            
+
+            // Остановка видео и возврат к превью
+            stopButton.addEventListener('click', function (event) {
+                event.stopPropagation(); // Не запускаем видео заново
+                video.pause();
+                video.src = ''; // Очищаем src, чтобы не грузить видео
+                video.remove();
+                videoContainer.appendChild(preview);
+                playButton.classList.remove('hidden');
+                stopButton.classList.add('hidden');
+            });
+
+            videoContainer.appendChild(preview);
+            videoContainer.appendChild(playButton);
+            videoContainer.appendChild(stopButton);
+            card.appendChild(videoContainer);
         } else {
             const img = document.createElement('img');
             img.src = item.media;

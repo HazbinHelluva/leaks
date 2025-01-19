@@ -192,3 +192,55 @@ header a {
     margin-left: 5px;
     margin-bottom: 15px;
 }
+
+.video-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.video-preview {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.play-btn, .stop-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    pointer-events: auto; /* Разрешает клик */
+}
+
+.play-btn:hover, .stop-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.stop-btn {
+    opacity: 0;
+    pointer-events: none; /* Запрещает клик, пока не видно */
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.video-container:hover .stop-btn {
+    opacity: 1;
+    pointer-events: auto; /* Включает клик */
+}
+
+.hidden {
+    display: none;
+}
