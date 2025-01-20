@@ -444,6 +444,242 @@ const items = [
     },
     {
         title: {
+            en: "FAKE | Moxxie at the Hazbin Hotel",
+            ru: "ФЕЙК | Мокси в Отеле Хазбин" 
+        },
+        description: {
+            en: "Angel, Charlie, Vaggie and Moxxie are standing against the hotel. According to the caption, this is minute 13 of episode 4, and Charlie is on the news at that moment. Also, it's frame 12_0102 and on 12_0200 we'll see Alastor with blood on chest, so it can't be",
+            ru: "Энджел, Чарли, Вегги и Мокси стоят на против отеля. Судя по надписям это 13 минута 4 серии, Чарли в этот момент в новостях. К тому же это кадр 12_0102 а уже на 12_0200 нам покажут Аластора с кровью на груди, так что этого кадра не может быть"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Helluva Boss", "Fake"],
+        media: "leaks/Fake/MoxxieAtHazbin.png"
+    },
+    {
+        title: {
+            en: "FAKE | Vox and Valentino - a shot from episode 6",
+            ru: "ФЕЙК | Вокс и Валентино - кадр из 6 эпизода" 
+        },
+        description: {
+            en: "Vox is reading something on his phone and aggressively commenting, while Valentino is smiling. The leaker has confirmed that all leaks of episodes 6 and 8, except for a 15 second snippet of episode 6 are fake",
+            ru: "Вокс что-то читает в телефоне и аггрессивно комментирует, а Валентино улыбается. Сливщик подтвердил, что все утечки 6 и 8 серии, кроме 15 секундная отрывка из 6 являются фейком"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake"],
+        media: "leaks/Fake/VoxAndVal.jpg"
+    },
+    {
+        title: {
+            en: "FAKE | Another Vox and Valentino shot",
+            ru: "ФЕЙК | Еще один кадр Вокса и Валентино" 
+        },
+        description: {
+            en: "Here, if you look at the caption, it's 1 minute of episode 4 and we know for a fact that it's completely different",
+            ru: "Тут вообще если посмотреть на надписи это 1 минута 4 эпизода и мы точно знаем что там совсем другое"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake"],
+        media: "leaks/Fake/VoxAndVal02.jpg"
+    },
+    {
+        title: {
+            en: "FAKE | Lute is going to attack Charlie",
+            ru: "ФЕЙК | Лют собирается напасть на Чарли" 
+        },
+        description: {
+            en: "Charlie is pissed off about something, but apparently doesn't see Lute, who is about to attack from behind. This is episode 7, which was done by a different studio (not the one that was hacked) and it wasn't leaked",
+            ru: "Чарли чем-то разозлена, но видимо не видит Лют, которая собирается напасть со спины. Это 7 эпизод, который делала другая студия (не та которую взломали) и он не был слит"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake"],
+        media: "leaks/Fake/LuteAndCharlie.jpg"
+    },
+    {
+        title: {
+            en: "FAKE | Leaked russian script - Vox speech",
+            ru: "ФЕЙК | Слитый русский сценарий - Речь Вокса" 
+        },
+        description: {
+            en: "This script was leaked directly in Russian in the Russian channel, kind of Russian dubbing, although the official Russian dubbing has only Helluva Boss",
+            ru: "Этот сценарий был слит сразу на русском в русском канале, типо русский дубляж, хотя официальный русский дубляж есть только у Адского Босса"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake", "Other"],
+        media: "leaks/Fake/FakeScenario.jpg"
+    },
+    {
+        title: {
+            en: "FAKE | Leaked script - Vox and Valentino's dialogue",
+            ru: "ФЕЙК | Слитый сценарий - Диалог Вокса и Валентино" 
+        },
+        description: {
+            en: "These scenarios are partly fake. They are outdated scripts for season 1 and have been redone",
+            ru: "Эти сценарии частично фейк. Это устаревшие сценарии к 1 сезону и были переделаны"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake", "Other"],
+        media: "leaks/Fake/FakeScenario01.png"
+    },
+    {
+        title: {
+            en: "FAKE | Leaked script - Lute and 2 new characters",
+            ru: "ФЕЙК | Слитый сценарий - Лют и 2 новых персонажа" 
+        },
+        description: {
+            en: "These scenarios are partly fake. They are outdated scripts for season 1 and have been redone",
+            ru: "Эти сценарии частично фейк. Это устаревшие сценарии к 1 сезону и были переделаны"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake", "Other"],
+        media: "leaks/Fake/FakeScenario02.png"
+    },
+    {
+        title: {
+            en: "FAKE | HuskerDust in episode 6",
+            ru: "ФЕЙК | ХаскерДаст в эпизоде 6" 
+        },
+        description: {
+            en: "Angel and Husk kissing at the beginning of episode 6. The caption is most likely cut directly from the leaked episode 6 snippet because the timing is the same, plus it's a confirmed fake by the person who drew it",
+            ru: "Энджел и Хаск целуются в начале 6 эпизода. Надписи скорее всего вырезаны напрямую из слитого отрывка 6 эпизода ведь время совпадает, к тому же это подтвержденный фейк человеком, нарисовавшим это"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake"],
+        media: "leaks/Fake/HuskerDust canon.jpg"
+    },
+    {
+        title: {
+            en: "FAKE | Lucifer and Adam's kiss in episode 8",
+            ru: "ФЕЙК | Поцелуй Люцифера и Адама в 8 эпизоде" 
+        },
+        description: {
+            en: "The leaker has confirmed that all leaks of episodes 6 and 8, except for a 15 second snippet of episode 6 are fake. By the way, the caption used here are exactly the same as in the dead Lucifer fake",
+            ru: "Сливщик подтвердил, что все утечки 6 и 8 серии, кроме 15 секундная отрывка из 6 являются фейком. Кстати надписи здесь используются точно такие же как и в фейке с мертвым Люцифером"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake"],
+        media: "leaks/Fake/LuciferAdam.jpg"
+    },
+    {
+        title: {
+            en: "FAKE | Lucifer's death in episode 8",
+            ru: "ФЕЙК | Смерть Люцифера в 8 эпизоде" 
+        },
+        description: {
+            en: "The leaker has confirmed that all leaks of episodes 6 and 8, except for a 15 second snippet of episode 6 are fake. By the way, the caption used here are exactly the same as in the Lucifer and Adam kiss fake",
+            ru: "Сливщик подтвердил, что все утечки 6 и 8 серии, кроме 15 секундная отрывка из 6 являются фейком. Кстати надписи здесь используются точно такие же как и в фейке с поцелуем Люцифера и Адама"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake"],
+        media: "leaks/Fake/LuciferDeath.jpg"
+    },
+    {
+        title: {
+            en: "FAKE | Vox's human form in episode 8",
+            ru: "ФЕЙК | Человеческий облик Вокса в 8 эпизоде" 
+        },
+        description: {
+            en: "The leaker has confirmed that all leaks of episodes 6 and 8, except for a 15 second snippet of episode 6 are fake. By the way, the caption used here are exactly the same as in the fake where Vox lost his arm",
+            ru: "Сливщик подтвердил, что все утечки 6 и 8 серии, кроме 15 секундная отрывка из 6 являются фейком. Кстати надписи здесь используются точно такие же как и в фейке где Вокс потерял руку"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake"],
+        media: "leaks/Fake/VoxHuman.jpg"
+    },
+    {
+        title: {
+            en: "FAKE | Vox lost his arm in episode 8",
+            ru: "ФЕЙК | Вокс потерял руку в 8 эпизоде" 
+        },
+        description: {
+            en: "The leaker has confirmed that all leaks of episodes 6 and 8, except for a 15 second snippet of episode 6 are fake. By the way, the caption used here are exactly the same as in the Vox human form fake",
+            ru: "Сливщик подтвердил, что все утечки 6 и 8 серии, кроме 15 секундная отрывка из 6 являются фейком. Кстати надписи здесь используются точно такие же как и в фейке с человеским обликом Вокса"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake"],
+        media: "leaks/Fake/VoxLostArm.png"
+    },
+    {
+        title: {
+            en: "FAKE | Vox is taunting Alastor",
+            ru: "ФЕЙК | Вокс дразнит Аластора" 
+        },
+        description: {
+            en: "It's very poor quality and it's not clear which episode and shot it is, it's probably episode 4 where Alastor is kidnapped, but the drawing style is not like Vivienne's and the rest of the episode",
+            ru: "Тут очень плохое качество и не видно какой это эпизод и кадр, скорее всего это серия 4, где Аластор похищен, но стиль рисовки не похож на стиль Вивьен и остальную серию"
+        },
+        tags: ["Photo", "Hazbin Hotel", "Fake"],
+        media: "leaks/Fake/VoxTauntingAlastor.png"
+    },
+    {
+        title: {
+            en: "",
+            ru: "" 
+        },
+        description: {
+            en: "",
+            ru: ""
+        },
+        tags: ["Video", "English subs", "Helluva Boss", "Obsolete", "Other"],
+        media: "leaks/helluva/HB_GHOST_FIGHT_SM.mp4",
+        preview: "preview/HB_GHOST_FIGHT_SM.jpg"
+    },
+    {
+        title: {
+            en: "",
+            ru: "" 
+        },
+        description: {
+            en: "",
+            ru: ""
+        },
+        tags: ["Song", "Video", "Helluva Boss", "Obsolete"],
+        media: "leaks/helluva/MastermindStoryboard.mp4",
+        preview: "preview/MastermindStoryboard.jpg"
+    },
+    {
+        title: {
+            en: "",
+            ru: "" 
+        },
+        description: {
+            en: "",
+            ru: ""
+        },
+        tags: ["Video", "English subs", "Helluva Boss", "Obsolete", "Other"],
+        media: "leaks/helluva/sinsmas.mp4",
+        preview: "preview/sinsmas.jpg"
+    },
+    {
+        title: {
+            en: "",
+            ru: "" 
+        },
+        description: {
+            en: "",
+            ru: ""
+        },
+        tags: ["Video", "Russian subs", "Helluva Boss", "Obsolete", "Other"],
+        media: "leaks/helluva/sinsmas rus localized @hazbinleak.mp4",
+        preview: "preview/sinsmas rus localized @hazbinleak.jpg"
+    },
+    {
+        title: {
+            en: "",
+            ru: "" 
+        },
+        description: {
+            en: "",
+            ru: ""
+        },
+        tags: ["Song", "Video", "English subs", "Helluva Boss", "Obsolete", "Other"],
+        media: "leaks/helluva/viasong.mp4",
+        preview: "preview/viasong.jpg"
+    },
+    {
+        title: {
+            en: "",
+            ru: "" 
+        },
+        description: {
+            en: "",
+            ru: ""
+        },
+        tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
+            "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
+        ],
+        media: "leaks/ep4/songs/.mp4",
+        preview: "preview/.jpg"
+    },
+    {
+        title: {
             en: "",
             ru: "" 
         },
@@ -502,8 +738,10 @@ function renderItems(itemsToRender) {
             const playButton = document.createElement('i');
             playButton.className = 'fas fa-play play-btn';
 
-            const stopButton = document.createElement('i');
-            stopButton.className = 'fas fa-stop stop-btn hidden';
+            const stopButton = document.createElement('button');
+            stopButton.className = 'stop-btn';
+            stopButton.innerHTML = '<i class="fas fa-stop"></i> Stop';
+            stopButton.classList.add('hidden');
 
             // Контейнер для видео
             const video = document.createElement('video');
@@ -511,52 +749,60 @@ function renderItems(itemsToRender) {
             video.setAttribute('controls', '');
             video.dataset.src = item.media;
 
-            // При клике загружаем видео и начинаем воспроизведение
-            videoContainer.addEventListener('click', function () {
+            // Функция запуска видео
+            function startVideo() {
                 video.src = item.media;
                 video.play();
                 preview.remove();
                 playButton.remove();
-                
-                const stopButton = document.createElement('button');
-                stopButton.className = 'stop-btn';
-                stopButton.innerHTML = '<i class="fas fa-stop"></i> Stop';
-                
-                stopButton.addEventListener('click', function (event) {
-                    event.stopPropagation(); // Чтобы не кликалось на видео
-                    video.pause();
-                    video.src = '';
-                    videoContainer.innerHTML = '';
-                    videoContainer.appendChild(preview);
-                    videoContainer.appendChild(playButton);
-                });
-            
-                videoContainer.appendChild(stopButton);
+                stopButton.classList.remove('hidden');
                 videoContainer.appendChild(video);
-            });
-            
+            }
 
-            // Остановка видео и возврат к превью
-            stopButton.addEventListener('click', function (event) {
+            // Функция остановки видео
+            function stopVideo(event) {
                 event.stopPropagation(); // Не запускаем видео заново
                 video.pause();
                 video.src = ''; // Очищаем src, чтобы не грузить видео
                 video.remove();
                 videoContainer.appendChild(preview);
-                playButton.classList.remove('hidden');
+                videoContainer.appendChild(playButton);
                 stopButton.classList.add('hidden');
-            });
+            }
+
+            preview.addEventListener('click', startVideo);
+            playButton.addEventListener('click', startVideo);
+            stopButton.addEventListener('click', stopVideo);
 
             videoContainer.appendChild(preview);
             videoContainer.appendChild(playButton);
             videoContainer.appendChild(stopButton);
             card.appendChild(videoContainer);
         } else {
+            const imgContainer = document.createElement('div');
+            imgContainer.className = 'img-container';
+
             const img = document.createElement('img');
             img.src = item.media;
             img.alt = item.title[currentLanguage];
             img.className = 'card-img-top';
-            card.appendChild(img);
+            img.style.cursor = 'pointer';
+
+            img.addEventListener('click', function () {
+                openModal(item.media);
+            });
+
+            imgContainer.appendChild(img);
+        
+            const fullScreenBtn = document.createElement('button');
+            fullScreenBtn.className = 'fullscreen-btn';
+            const icon = document.createElement('i');
+            icon.className = 'fas fa-expand';
+            fullScreenBtn.appendChild(icon);
+            fullScreenBtn.onclick = () => openModal(item.media);
+            
+            imgContainer.appendChild(fullScreenBtn);
+            card.appendChild(imgContainer);
         }
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
@@ -592,6 +838,8 @@ function renderItems(itemsToRender) {
     });
 }
 
+let hideFakes = JSON.parse(localStorage.getItem('hideFakes')) || false;
+
 // Функция фильтра и поиска
 function filterItems() {
     const searchInput = document.getElementById('search-input').value.toLowerCase();
@@ -608,8 +856,25 @@ function filterItems() {
             filters.every(tag => item.tags.includes(tag))
         );
     }
+    if (hideFakes) {
+        filteredItems = filteredItems.filter(item => !item.tags.includes("Fake"));
+    }
     renderItems(filteredItems);
 }
+
+// Функция обновления текста кнопки скрытия фейков
+function updateFakeButton() {
+    const btn = document.getElementById('toggle-fakes');
+    const t = titles[currentLanguage];
+    btn.textContent = hideFakes ? t.showFakes : t.hideFakes;
+}
+
+document.getElementById('toggle-fakes').addEventListener('click', function() {
+    hideFakes = !hideFakes;
+    localStorage.setItem('hideFakes', JSON.stringify(hideFakes));
+    updateFakeButton();
+    filterItems();
+});
 
 document.getElementById('search-input').addEventListener('input', filterItems);
 document.querySelectorAll('.filter').forEach(filter => 
@@ -689,7 +954,9 @@ const titles = {
         other: "Other",
         searchPlaceholder: "Search by title...",
         perRow: "per row",
-        languageToggle: "RUS"
+        languageToggle: "RUS",
+        hideFakes: "Hide fakes",
+        showFakes: "Show fakes"
     },
     ru: {
         header: "Архив сливов Отеля Хазбин и Адского Босса",
@@ -704,7 +971,9 @@ const titles = {
         other: "Другое",
         searchPlaceholder: "Поиск по названию...",
         perRow: "в ряд",
-        languageToggle: "ENG"
+        languageToggle: "ENG",
+        hideFakes: "Не показывать фейки",
+        showFakes: "Показывать фейки"
     }
 };
 
@@ -726,10 +995,14 @@ function setLanguage(lang) {
     document.getElementById('search-input').placeholder = t.searchPlaceholder;
     document.getElementById('language-toggle').textContent = t.languageToggle;
     
+    updateFakeButton();
+
     const select = document.getElementById('columns-select');
     select.options[0].text = `1 ${t.perRow}`;
     select.options[1].text = `2 ${t.perRow}`;
     select.options[2].text = `3 ${t.perRow}`;
+
+    filterItems();
 }
 
 // Загрузка сохраненного языка
@@ -745,6 +1018,26 @@ document.getElementById('language-toggle').addEventListener('click', () => {
     setLanguage(newLang);
     renderItems(items);
     location.reload();
+});
+
+// Картинка в полном экране
+function openModal(imgSrc) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('fullImage');
+    modal.style.display = 'flex';
+    modalImg.src = imgSrc;
+}
+
+// Закрытие по кнопке
+document.querySelector('.close').addEventListener('click', function () {
+    document.getElementById('imageModal').style.display = 'none';
+});
+
+// Закрытие по ESC
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+        document.getElementById('imageModal').style.display = 'none';
+    }
 });
 
 renderItems(items);
