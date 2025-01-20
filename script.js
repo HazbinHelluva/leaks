@@ -600,12 +600,12 @@ const items = [
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "Cut scene from episode 10 of Helluva Boss",
+            ru: "Вырезанная сцена из 10 серии Адского Босса" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "Actually this scene and episode about Rolando was supposed to be 6, that's why Blitz uses the grimoire, but everything was redone. So I can't give this the Fake tag, because it's official but obsolete",
+            ru: "На самом деле эта сцена и серия про Роландо должна была быть 6, поэтому Блиц использует гримуар, но все переделали. Так что я не могу дать этому метку Фейк, ведь оно официально, но устарело"
         },
         tags: ["Video", "English subs", "Helluva Boss", "Obsolete", "Other"],
         media: "leaks/helluva/HB_GHOST_FIGHT_SM.mp4",
@@ -613,12 +613,12 @@ const items = [
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "Mastermind storyboard",
+            ru: "Раскадровка Mastermind" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "It's not actually a leak and I gave the tag obsolete since we've already seen the full version, but I decided to add it here anyway",
+            ru: "На самом деле это не слив и я дала тег устарело, так как мы уже видели полную версию, но все равно я решила добавить это сюда"
         },
         tags: ["Song", "Video", "Helluva Boss", "Obsolete"],
         media: "leaks/helluva/MastermindStoryboard.mp4",
@@ -626,12 +626,12 @@ const items = [
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "An early version of episode 12 of Helluva Boss",
+            ru: "Ранняя версия 12 эпизода Адского Босса" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "This excerpt from episode 12 was leaked together with an excerpt from episode 10 (which should be 6) and unlike it, it's almost exactly the same. But the Octavia song clip is not quite the same here and there are some interesting scenes and also many scenes in the final version were cut down",
+            ru: "Этот отрывок из 12 серии был слит вместе с отрывком из 10 (которая должна быть 6) и в отличие от нее почти полностью совпал. Но клип песни Октавии здесь не совсем такой и есть интересные сцены и также многие сцены в итоговом варианте сократили"
         },
         tags: ["Video", "English subs", "Helluva Boss", "Obsolete", "Other"],
         media: "leaks/helluva/sinsmas.mp4",
@@ -639,12 +639,12 @@ const items = [
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "An early version of episode 12 of Helluva Boss with Russian subtitles",
+            ru: "Ранняя версия 12 эпизода Адского Босса с русскими субтитрами" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "The subtitles are by me, I also tried a little bit to localise the captions",
+            ru: "Субтитры сделаны мной, также я немного попробовала локализовать надписи"
         },
         tags: ["Video", "Russian subs", "Helluva Boss", "Obsolete", "Other"],
         media: "leaks/helluva/sinsmas rus localized @hazbinleak.mp4",
@@ -652,12 +652,12 @@ const items = [
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "An early version of Octavia's song in episode 12 of Helluva Boss, performed by Sam Haft",
+            ru: "Ранняя версия песни Октавии в 12 серии Адского Босса в исполнении Сэма Хафта" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "Also here is a slightly different clip, the lyrics are the same as in the final version",
+            ru: "Также здесь немного отличается клип, текст такой же как и в итоговой версии"
         },
         tags: ["Song", "Video", "English subs", "Helluva Boss", "Obsolete", "Other"],
         media: "leaks/helluva/viasong.mp4",
@@ -665,18 +665,63 @@ const items = [
     },
     {
         title: {
-            en: "",
-            ru: "" 
+            en: "Abel at the meeting in Sera's office | 01",
+            ru: "Авель на собрании в офисе Серы | 01" 
         },
         description: {
-            en: "",
-            ru: ""
+            en: "Sera, along with Abel and St Peter decide what to do now. Images from the end of episode 2",
+            ru: "Сера, вместе с Авелем и Святым Петром решают, что теперь делать. Кадры из конца 2 эпизода"
         },
-        tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
-            "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
-        ],
-        media: "leaks/ep4/songs/.mp4",
-        preview: "preview/.jpg"
+        tags: ["Episode 2", "Photo", "Hazbin Hotel"],
+        media: "leaks/images/Abel01.jpg"
+    },
+    {
+        title: {
+            en: "Abel at the meeting in Sera's office | 02",
+            ru: "Авель на собрании в офисе Серы | 02" 
+        },
+        description: {
+            en: "Sera, along with Abel and St Peter decide what to do now. Images from the end of episode 2",
+            ru: "Сера, вместе с Авелем и Святым Петром решают, что теперь делать. Кадры из конца 2 эпизода"
+        },
+        tags: ["Episode 2", "Photo", "Hazbin Hotel"],
+        media: "leaks/images/Abel02.jpg"
+    },
+    {
+        title: {
+            en: "Abel at the meeting in Sera's office | 03",
+            ru: "Авель на собрании в офисе Серы | 03" 
+        },
+        description: {
+            en: "Sera, along with Abel and St Peter decide what to do now. Images from the end of episode 2",
+            ru: "Сера, вместе с Авелем и Святым Петром решают, что теперь делать. Кадры из конца 2 эпизода"
+        },
+        tags: ["Episode 2", "Photo", "Hazbin Hotel"],
+        media: "leaks/images/Abel03.jpg"
+    },
+    {
+        title: {
+            en: "Abel at the meeting in Sera's office | 04",
+            ru: "Авель на собрании в офисе Серы | 04" 
+        },
+        description: {
+            en: "Sera, along with Abel and St Peter decide what to do now. Images from the end of episode 2",
+            ru: "Сера, вместе с Авелем и Святым Петром решают, что теперь делать. Кадры из конца 2 эпизода"
+        },
+        tags: ["Episode 2", "Photo", "Hazbin Hotel"],
+        media: "leaks/images/Abel04.jpg"
+    },
+    {
+        title: {
+            en: "Alastor's human form reference",
+            ru: "Референс человеского облика Аластора" 
+        },
+        description: {
+            en: "We first saw his human form in episode 4",
+            ru: "Впервые его человеческий облик мы увидели в 4 эпизоде"
+        },
+        tags: ["Episode 4", "Photo", "Ref sheet", "Hazbin Hotel"],
+        media: "leaks/images/AlastorHumanRef.png"
     },
     {
         title: {
@@ -687,11 +732,9 @@ const items = [
             en: "",
             ru: ""
         },
-        tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
-            "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
-        ],
-        media: "leaks/ep4/songs/.mp4",
-        preview: "preview/.jpg"
+        tags: ["Episode 2", "Episode 4", "Episode 6", "Photo", "Ref sheet", "BG", "Hazbin Hotel", "Obsolete", "Other"
+],
+        media: "leaks/images/AlastorOutfitCannibal.png"
     },
     {
         title: {
@@ -702,11 +745,9 @@ const items = [
             en: "",
             ru: ""
         },
-        tags: ["Episode 2", "Episode 4", "Episode 6", "Full episode", "Song", "Photo", "Video", "Ref sheet", "BG", "Russian subs", "English subs",
-            "Hazbin Hotel", "Helluva Boss", "Fake", "Obsolete", "Other"
-        ],
-        media: "leaks/ep4/songs/.mp4",
-        preview: "preview/.jpg"
+        tags: ["Episode 2", "Episode 4", "Episode 6", "Photo", "Ref sheet", "BG", "Hazbin Hotel", "Obsolete", "Other"
+],
+        media: "leaks/images/.jpg"
     }
 ];
 
@@ -964,27 +1005,11 @@ function enforceTwoColumns() {
     }
 }
 
-// Функция для загрузки сохраненных колонок с учетом экрана
-function loadColumns() {
-    const screenWidth = window.innerWidth;
-    const savedColumns = localStorage.getItem('galleryColumns') || "3";
-
-    if (screenWidth <= 768 && savedColumns === "3") {
-        setColumns("2");
-        document.getElementById('columns-select').value = "2";
-    } else {
-        setColumns(savedColumns);
-        document.getElementById('columns-select').value = savedColumns;
-    }
-}
-
 document.addEventListener('DOMContentLoaded', function () {
-    loadColumns();
-    enforceTwoColumns();
-
-    document.getElementById('columns-select').addEventListener('change', function () {
-        setColumns(this.value);
-    });
+    enforceTwoColumns(); // Применяем ограничение при загрузке
+    const savedColumns = localStorage.getItem('galleryColumns') || "3";
+    document.getElementById('columns-select').value = savedColumns;
+    setColumns(savedColumns);
 });
 
 window.addEventListener('resize', enforceTwoColumns); // Проверяем при изменении размера
