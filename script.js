@@ -939,6 +939,56 @@ document.getElementById('columns-select').addEventListener('change', function() 
     setColumns(this.value);
 });
 
+// Проверка и установка колонок на маленьких экранах
+function enforceTwoColumns() {
+    const select = document.getElementById('columns-select');
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth <= 768) {
+        // Убираем опцию 3 колонок
+        Array.from(select.options).forEach(option => {
+            if (option.value === "3") option.disabled = true;
+        });
+
+        // Проверяем сохраненное значение и устанавливаем 2 колонки, если нужно
+        const currentColumns = localStorage.getItem('galleryColumns') || "3";
+        if (currentColumns == "3") {
+            setColumns("2");
+            select.value = "2";
+        }
+    } else {
+        // Возвращаем возможность выбора 3 колонок на больших экранах
+        Array.from(select.options).forEach(option => {
+            if (option.value === "3") option.disabled = false;
+        });
+    }
+}
+
+// Функция для загрузки сохраненных колонок с учетом экрана
+function loadColumns() {
+    const screenWidth = window.innerWidth;
+    const savedColumns = localStorage.getItem('galleryColumns') || "3";
+
+    if (screenWidth <= 768 && savedColumns === "3") {
+        setColumns("2");
+        document.getElementById('columns-select').value = "2";
+    } else {
+        setColumns(savedColumns);
+        document.getElementById('columns-select').value = savedColumns;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    loadColumns();
+    enforceTwoColumns();
+
+    document.getElementById('columns-select').addEventListener('change', function () {
+        setColumns(this.value);
+    });
+});
+
+window.addEventListener('resize', enforceTwoColumns); // Проверяем при изменении размера
+
 // Массив с заголовками на двух языках
 const titles = {
     en: {

@@ -270,6 +270,7 @@ header a {
 .modal-content {
     max-width: 90%;
     max-height: 90%;
+    object-fit: contain;
 }
 
 .close {
@@ -297,4 +298,18 @@ header a {
 
 .fullscreen-btn:hover {
     background: rgba(0, 0, 0, 0.8);
+}
+
+/* Галерея на 2 колонки */
+.columns-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Галерея на 3 колонки */
+.columns-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
