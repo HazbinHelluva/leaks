@@ -969,13 +969,6 @@ function setColumns(count) {
     document.documentElement.style.setProperty('--item-height', height);
 }
 
-// Загрузка сохраненного значению, по умолчанию 3
-document.addEventListener('DOMContentLoaded', function () {
-    const savedColumns = localStorage.getItem('galleryColumns') || "3";
-    document.getElementById('columns-select').value = savedColumns;
-    setColumns(savedColumns);
-});
-
 document.getElementById('columns-select').addEventListener('change', function() {
     setColumns(this.value);
 });
@@ -987,29 +980,33 @@ function enforceTwoColumns() {
 
     if (screenWidth <= 768) {
         // Убираем опцию 3 колонок
-        Array.from(select.options).forEach(option => {
-            if (option.value === "3") option.disabled = true;
-        });
+        let option = document.getElementById('3');
+        option.parentNode.removeChild(option);
 
         // Проверяем сохраненное значение и устанавливаем 2 колонки, если нужно
         const currentColumns = localStorage.getItem('galleryColumns') || "3";
         if (currentColumns == "3") {
-            setColumns("2");
             select.value = "2";
+            setColumns("2");
         }
     } else {
         // Возвращаем возможность выбора 3 колонок на больших экранах
-        Array.from(select.options).forEach(option => {
-            if (option.value === "3") option.disabled = false;
-        });
+        if (!document.getElementById("3")) {
+            var option3 = document.createElement('option');
+            option3.textContent = "3 per row";
+            option3.value = "3";
+            option3.id = "3";
+            const savedLanguage = localStorage.getItem('language') || "en";
+            setLanguage(savedLanguage);
+            const savedColumns = localStorage.getItem('galleryColumns') || "3";
+            select.value = savedColumns;
+            setColumns(savedColumns);
+        }
     }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
     enforceTwoColumns(); // Применяем ограничение при загрузке
-    const savedColumns = localStorage.getItem('galleryColumns') || "3";
-    document.getElementById('columns-select').value = savedColumns;
-    setColumns(savedColumns);
 });
 
 window.addEventListener('resize', enforceTwoColumns); // Проверяем при изменении размера
