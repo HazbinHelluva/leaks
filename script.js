@@ -885,8 +885,8 @@ const items = [
             ru: "Чарли в аниме стиле" 
         },
         description: {
-            en: "In episode 4 there will be an anime scene on the news, it will most likely be a song",
-            ru: "В 4 эпизоде будет аниме сцена в новостях, скорее всего это будет песня"
+            en: "In episode 4 there will be an anime scene on the news, it will most likely be a song. Watermark removed by @ItsThePS5Guy (telegram)",
+            ru: "В 4 эпизоде будет аниме сцена в новостях, скорее всего это будет песня. Водяной знак удалил @ItsThePS5Guy (telegram)"
         },
         tags: ["Episode 4", "Photo", "Ref sheet", "Hazbin Hotel"],
         media: "leaks/images/Charlie Anime Sheet.png"
