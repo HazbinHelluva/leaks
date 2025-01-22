@@ -9,6 +9,7 @@ header {
     color: #212529;
     padding: 1em;
     text-align: center;
+    width: 100%;
 }
 
 .buttons-container {
@@ -68,8 +69,8 @@ header a {
 
 /* Количество элементов в ряд (1-3) */
 :root {
-    --columns-count: 3;
-    --item-height: 200px;
+    --columns-count: 2;
+    --item-height: 250px;
 }
 
 #gallery {
@@ -144,6 +145,9 @@ header a {
     color: #fff !important;
 }
 
+.input-group {
+    width: 100%;
+}
 /* Темная тема */
 .dark-theme {
     background-color: #121212;
@@ -271,6 +275,13 @@ header a {
     max-width: 90%;
     max-height: 90%;
     object-fit: contain;
+    z-index: 100;
+}
+
+.vertical-video {
+    width: auto;
+    height: 90%;
+    aspect-ratio: 9/16;
 }
 
 .close {
@@ -294,22 +305,9 @@ header a {
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 5px;
+    z-index: 10;
 }
 
 .fullscreen-btn:hover {
     background: rgba(0, 0, 0, 0.8);
-}
-
-/* Галерея на 2 колонки */
-.columns-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
-/* Галерея на 3 колонки */
-.columns-3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
 }
