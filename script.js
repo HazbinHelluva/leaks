@@ -236,6 +236,19 @@ const items = [
     },
     {
         title: {
+            en: "Episode 2 - Storyteller with English subtitles",
+            ru: "Эпизод 2 - Storyteller (Рассказчик) с английскими субтитрами" 
+        },
+        description: {
+            en: "Thanks to Phant Sec (telegram) for sharing this",
+            ru: "Спасибо Phant Sec (telegram) за то, что поделился этим"
+        },
+        tags: ["Episode 2", "Full episode", "Video", "English subs", "Hazbin Hotel"],
+        media: "leaks/ep2/fullep2withensub.mp4",
+        preview: "preview/fullep2withensub.jpg"
+    },
+    {
+        title: {
             en: "Episode 2 - Storyteller with Russian subtitles",
             ru: "Эпизод 2 - Storyteller (Рассказчик) с русскими субтитрами" 
         },
@@ -314,6 +327,19 @@ const items = [
     },
     {
         title: {
+            en: "You are my pet - Alastor and Rosie's song with Alastor radio effect",
+            ru: "You are my pet - Песня Аластора и Рози c радио эффетом Аластора" 
+        },
+        description: {
+            en: "Alastor's voice is overlaid with his radio effect. It is not there in the original, as his staff is broken. Thanks to Phant Sec for sharing this",
+            ru: "На голос Аластора наложен его радио эффект. В оригинале его нет, так как его посох сломан. Спасибо Phant Sec за то, что поделился этим"
+        },
+        tags: ["Episode 4", "Song", "Video", "Hazbin Hotel", "Other"],
+        media: "leaks/ep4/songs/YouAreMyPetwithVE.mp4",
+        preview: "preview/YouAreMyPetwithVE.jpg"
+    },
+    {
+        title: {
             en: "You are my pet - Alastor and Rosie's song with English subtitles",
             ru: "You are my pet - Песня Аластора и Рози с английскими субтитрами" 
         },
@@ -350,6 +376,19 @@ const items = [
         tags: ["Episode 4", "Full episode", "Video", "Hazbin Hotel"],
         media: "leaks/ep4/full4.mp4",
         preview: "preview/full4.jpg"
+    },
+    {
+        title: {
+            en: "Episode 4 - It's a Deal with English subtitles and Alastor radio effect",
+            ru: "Эпизод 4 - It's a Deal (Договорились) с английскими субтитрами и радио эффетом Аластора" 
+        },
+        description: {
+            en: "Alastor's voice is overlaid with his radio effect. It is not there in the original, as his staff is broken. Thanks to Phant Sec for sharing this",
+            ru: "На голос Аластора наложен его радио эффект. В оригинале его нет, так как его посох сломан. Спасибо Phant Sec за то, что поделился этим"
+        },
+        tags: ["Episode 4", "Full episode", "Video", "English subs", "Hazbin Hotel"],
+        media: "leaks/ep4/fullep4WithAlastorVE.mp4",
+        preview: "preview/fullep4WithAlastorVE.jpg"
     },
     {
         title: {
@@ -1364,38 +1403,38 @@ const items = [
     },
     {
         title: {
-            en: "The script for episode 2 [1/3]",
-            ru: "Сценарий ко 2 эпизоду [1/3]" 
+            en: "The script for episode 2 [1/3] FAN MADE based on the leaked episode 2",
+            ru: "Сценарий ко 2 эпизоду [1/3] СДЕЛАНО ФАНОМ по слитому 2 эпизоду" 
         },
         description: {
             en: "Detailed script of episode 2 with song titles",
             ru: "Подробный сценарий 2 эпизода с названиями песен"
         },
-        tags: ["Episode 2", "Photo", "Hazbin Hotel"],
+        tags: ["Episode 2", "Photo", "Hazbin Hotel", "Other"],
         media: "leaks/images/Scenario01.png"
     },
     {
         title: {
-            en: "The script for episode 2 [2/3]",
-            ru: "Сценарий ко 2 эпизоду [2/3]" 
+            en: "The script for episode 2 [2/3] FAN MADE based on the leaked episode 2",
+            ru: "Сценарий ко 2 эпизоду [2/3] СДЕЛАНО ФАНОМ по слитому 2 эпизоду" 
         },
         description: {
             en: "Detailed script of episode 2 with song titles",
             ru: "Подробный сценарий 2 эпизода с названиями песен"
         },
-        tags: ["Episode 2", "Photo", "Hazbin Hotel"],
+        tags: ["Episode 2", "Photo", "Hazbin Hotel", "Other"],
         media: "leaks/images/Scenario02.png"
     },
     {
         title: {
-            en: "The script for episode 2 [3/3]",
-            ru: "Сценарий ко 2 эпизоду [3/3]" 
+            en: "The script for episode 2 [3/3] FAN MADE based on the leaked episode 2",
+            ru: "Сценарий ко 2 эпизоду [3/3] СДЕЛАНО ФАНОМ по слитому 2 эпизоду" 
         },
         description: {
             en: "Detailed script of episode 2 with song titles",
             ru: "Подробный сценарий 2 эпизода с названиями песен"
         },
-        tags: ["Episode 2", "Photo", "Hazbin Hotel"],
+        tags: ["Episode 2", "Photo", "Hazbin Hotel", "Other"],
         media: "leaks/images/Scenario03.png"
     },
     {
@@ -2113,5 +2152,43 @@ document.addEventListener('keydown', function (e) {
     }
 });
 
+// Загрузка всех сливов
+document.getElementById('download-all').addEventListener('click', async function () {
+    const zip = new JSZip();
+
+    const response = await fetch('files.json');
+    const files = await response.json();
+
+    if (files.length === 0) {
+        alert("No files available to download");
+        return;
+    }
+
+    let count = 0;
+    for (let path of files) {
+        try {
+            const response = await fetch(path);
+            const blob = await response.blob();
+            const filename = path.split('/').pop();
+            zip.file(filename, blob);
+            count++;
+        } catch (error) {
+            console.error("Error downloading", path, error);
+        }
+    }
+
+    if (count > 0) {
+        zip.generateAsync({ type: "blob" }).then(function (content) {
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(content);
+            a.download = "hazbin_helluva_leaks.zip";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        });
+    } else {
+        alert("Failed to download files");
+    }
+});
 
 renderItems(items);
