@@ -1100,6 +1100,18 @@ const items = [
     },
     {
         title: {
+            en: "Katie and Tom in anime style - No watermark",
+            ru: "Кэти и Том в аниме стиле - Без водяного знака" 
+        },
+        description: {
+            en: "In episode 4 there will be an anime scene on the news, it will most likely be a song. Watermark removed by @Hz8397 (telegram)",
+            ru: "В 4 эпизоде будет аниме сцена в новостях, скорее всего это будет песня. Водяной знак удален @Hz8397 (telegram)"
+        },
+        tags: ["Episode 4", "Photo", "Ref sheet", "Hazbin Hotel"],
+        media: "leaks/images/KatieAndTomNoWatermark.jpg"
+    },
+    {
+        title: {
             en: "Kidnapped Alastor with extra information",
             ru: "Похищенный Аластор с дополнительной информацией" 
         },
