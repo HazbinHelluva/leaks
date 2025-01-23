@@ -2152,43 +2152,69 @@ document.addEventListener('keydown', function (e) {
     }
 });
 
+const GITHUB_PAGES_URL = "https://hazbinhelluva.github.io/leaks/";
+
 // Загрузка всех сливов
 document.getElementById('download-all').addEventListener('click', async function () {
     const zip = new JSZip();
+    
+    // Показываем модальное окно
+    const modal = document.getElementById("progress-modal");
+    const progressBar = document.getElementById("progress-bar");
+    const progressText = document.getElementById("progress-text");
+    modal.style.display = "flex";
 
-    const response = await fetch('files.json');
-    const files = await response.json();
+    try {
+        const response = await fetch('files.json');
+        const files = await response.json();
 
-    if (files.length === 0) {
-        alert("No files available to download");
-        return;
-    }
-
-    let count = 0;
-    for (let path of files) {
-        try {
-            const response = await fetch(path);
-            const blob = await response.blob();
-            const filename = path.split('/').pop();
-            zip.file(filename, blob);
-            count++;
-        } catch (error) {
-            console.error("Error downloading", path, error);
+        if (files.length === 0) {
+            alert("No files available to download");
+            modal.style.display = "none";
+            return;
         }
+
+        let count = 0;
+        for (let i = 0; i < files.length; i++) {
+            let path = files[i];
+            try {
+                const fileURL = GITHUB_PAGES_URL + path;
+                const response = await fetch(fileURL);
+                if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+
+                const blob = await response.blob();
+                const filename = path.split('/').pop(); 
+                
+                zip.file(filename, blob);
+                count++;
+
+                // Обновляем прогресс-бар
+                progressBar.value = ((i + 1) / files.length) * 100;
+                progressText.textContent = `Загрузка: ${i + 1} из ${files.length}`;
+            } catch (error) {
+                console.error("Error downloading", path, error);
+            }
+        }
+
+        if (count > 0) {
+            zip.generateAsync({ type: "blob" }).then(function (content) {
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(content);
+                a.download = "hazbin_helluva_leaks.zip";
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            });
+        } else {
+            alert("Failed to download files");
+        }
+    } catch (error) {
+        alert("Error downloading files");
+        console.error("Error:", error);
     }
 
-    if (count > 0) {
-        zip.generateAsync({ type: "blob" }).then(function (content) {
-            const a = document.createElement('a');
-            a.href = URL.createObjectURL(content);
-            a.download = "hazbin_helluva_leaks.zip";
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-        });
-    } else {
-        alert("Failed to download files");
-    }
+    // Скрываем модальное окно после завершения
+    modal.style.display = "none";
 });
 
 renderItems(items);
