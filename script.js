@@ -2152,7 +2152,7 @@ document.addEventListener('keydown', function (e) {
     }
 });
 
-const GITHUB_PAGES_URL = "https://hazbinhelluva.github.io/leaks/";
+let downloadCancelled = false;
 
 // Загрузка всех сливов
 document.getElementById('download-all').addEventListener('click', async function () {
@@ -2162,7 +2162,15 @@ document.getElementById('download-all').addEventListener('click', async function
     const modal = document.getElementById("progress-modal");
     const progressBar = document.getElementById("progress-bar");
     const progressText = document.getElementById("progress-text");
+    const timeLeftText = document.getElementById("time-left");
+    const cancelButton = document.getElementById("cancel-button");
     modal.style.display = "flex";
+
+    cancelButton.addEventListener('click', function () {
+        downloadCancelled = true;
+        modal.style.display = "none";
+        alert("Download cancelled");
+    });
 
     try {
         const response = await fetch('files.json');
@@ -2175,11 +2183,12 @@ document.getElementById('download-all').addEventListener('click', async function
         }
 
         let count = 0;
+        let startTime = Date.now(); 
         for (let i = 0; i < files.length; i++) {
+            if (downloadCancelled) break;
             let path = files[i];
             try {
-                const fileURL = GITHUB_PAGES_URL + path;
-                const response = await fetch(fileURL);
+                const response = await fetch(path);
                 if (!response.ok) throw new Error(`HTTP error ${response.status}`);
 
                 const blob = await response.blob();
@@ -2190,7 +2199,15 @@ document.getElementById('download-all').addEventListener('click', async function
 
                 // Обновляем прогресс-бар
                 progressBar.value = ((i + 1) / files.length) * 100;
-                progressText.textContent = `Загрузка: ${i + 1} из ${files.length}`;
+                progressText.textContent = `Download: ${i + 1} out of ${files.length}`;
+
+                // Расчет оставшегося времени
+                let elapsedTime = (Date.now() - startTime) / 1000;
+                let timePerFile = elapsedTime / (i + 1);
+                let remainingTime = (files.length - (i + 1)) * timePerFile;
+                let minutes = Math.floor(remainingTime / 60);
+                let seconds = Math.floor(remainingTime % 60);
+                timeLeftText.textContent = `Time remaining: ${minutes}:${seconds.toString().padStart(2, '0')}`;
             } catch (error) {
                 console.error("Error downloading", path, error);
             }
