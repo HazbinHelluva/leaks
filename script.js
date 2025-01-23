@@ -301,6 +301,19 @@ const items = [
     },
     {
         title: {
+            en: "You are my pet - Alastor and Rosie's song coloured by ScentedRoses",
+            ru: "You are my pet - Песня Аластора и Рози раскрашенная ScentedRoses" 
+        },
+        description: {
+            en: "By the.scented.roses (discord)",
+            ru: "Автор the.scented.roses (discord)"
+        },
+        tags: ["Episode 4", "Song", "Video", "English subs", "Hazbin Hotel", "Other"],
+        media: "leaks/ep4/songs/FanColoredYouAreMyPet.mp4",
+        preview: "preview/FanColoredYouAreMyPet.jpg"
+    },
+    {
+        title: {
             en: "You are my pet - Alastor and Rosie's song with English subtitles",
             ru: "You are my pet - Песня Аластора и Рози с английскими субтитрами" 
         },
@@ -370,8 +383,8 @@ const items = [
             ru: "Начало 6 эпизода - Weapon of Mass Distraction (Оружие массового отвлечения) с английскими субтитрами" 
         },
         description: {
-            en: "Subtitles made by me. Also this episode was leaked in 3 excerpts and the second one was unofficially coloured (unfortunately I don't know by whom) and I used the coloured version",
-            ru: "Субтитры сделаны мной. Также этот эпизод был слит в 3 отрывках и второй был неофициально раскрашен (к сожалению не знаю кем), и я использовала раскрашенный вариант"
+            en: "Subtitles made by me. Also this episode was leaked in 3 excerpts and the second one was unofficially coloured by the.scented.roses (discord) and I used the coloured version",
+            ru: "Субтитры сделаны мной. Также этот эпизод был слит в 3 отрывках и второй был неофициально раскрашен the.scented.roses (discord), и я использовала раскрашенный вариант"
         },
         tags: ["Episode 6", "Video", "English subs", "Hazbin Hotel"],
         media: "leaks/ep6/ep6 en sub @hazbinleak.mp4",
@@ -383,8 +396,8 @@ const items = [
             ru: "Начало 6 эпизода - Weapon of Mass Distraction (Оружие массового отвлечения) с русскими субтитрами" 
         },
         description: {
-            en: "Subtitles made by me. Also this episode was leaked in 3 excerpts and the second one was unofficially coloured (unfortunately I don't know by whom) and I used the coloured version",
-            ru: "Субтитры сделаны мной. Также этот эпизод был слит в 3 отрывках и второй был неофициально раскрашен (к сожалению не знаю кем), и я использовала раскрашенный вариант"
+            en: "Subtitles made by me. Also this episode was leaked in 3 excerpts and the second one was unofficially coloured by the.scented.roses (discord) and I used the coloured version",
+            ru: "Субтитры сделаны мной. Также этот эпизод был слит в 3 отрывках и второй был неофициально раскрашен the.scented.roses (discord), и я использовала раскрашенный вариант"
         },
         tags: ["Episode 6", "Video", "Russian subs", "Hazbin Hotel"],
         media: "leaks/ep6/ep6 rus sub @hazbinleak.mp4",
@@ -396,12 +409,25 @@ const items = [
             ru: "Раскрашенный фанатом отрывок из 6 серии" 
         },
         description: {
-            en: "Unfortunately I don't know the author, but perhaps the watermark on the extract is his. Subtitles by me",
-            ru: "К сожалению не знаю автора, но возможно водяной знак на отрывке его. Субтитры мои"
+            en: "By the.scented.roses (discord)",
+            ru: "Автор the.scented.roses (discord)"
         },
         tags: ["Episode 6", "Video", "English subs", "Hazbin Hotel", "Other"],
         media: "leaks/ep6/FanColored.mp4",
         preview: "preview/FanColored.jpg"
+    },
+    {
+        title: {
+            en: "Full 15 second clip coloured by ScentedRoses",
+            ru: "Полный 15 секундный отрывок раскрашенный ScentedRoses" 
+        },
+        description: {
+            en: "By the.scented.roses (discord)",
+            ru: "Автор the.scented.roses (discord)"
+        },
+        tags: ["Episode 6", "Video", "English subs", "Hazbin Hotel", "Other"],
+        media: "leaks/ep6/FanColoredFullByScentedRose.mp4",
+        preview: "preview/FanColoredFullByScentedRose.jpg"
     },
     {
         title: {
