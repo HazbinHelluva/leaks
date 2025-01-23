@@ -1108,7 +1108,7 @@ const items = [
             ru: "В 4 эпизоде будет аниме сцена в новостях, скорее всего это будет песня. Водяной знак удален @Hz8397 (telegram)"
         },
         tags: ["Episode 4", "Photo", "Ref sheet", "Hazbin Hotel"],
-        media: "leaks/images/KatieAndTomNoWatermark.jpg"
+        media: "leaks/images/KatieAndTomNoWatermark.png"
     },
     {
         title: {
