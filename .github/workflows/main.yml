@@ -1,0 +1,29 @@
+name: Update files.json
+
+on:
+  push:
+    paths:
+      - "leaks/**"  # Следим за изменениями в папке "leaks"
+  workflow_dispatch:  # Позволяет вручную запустить action
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate files.json
+        run: |
+          echo "[" > files.json
+          find leaks -type f | sed 's/^/  "/;s/$/",/' >> files.json
+          echo "]" >> files.json
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add files.json
+          git commit -m "Auto-update files.json" || exit 0
+          git push
