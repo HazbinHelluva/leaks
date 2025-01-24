@@ -1019,6 +1019,18 @@ const items = [
     },
     {
         title: {
+            en: "Emily and Pentious colored scene",
+            ru: "Эмили и Пентиус раскрашенная сцена" 
+        },
+        description: {
+            en: "The scene from episode 2 where Emily shows Pentious heaven. Сolored by @Hz8397 (telegram)",
+            ru: "Сцена из 2 эпизода, где Эмили показывает Пентиусу рай. Раскрашено @Hz8397 (telegram)"
+        },
+        tags: ["Episode 2", "Photo", "Hazbin Hotel", "Other"],
+        media: "leaks/images/EmilyAndPentiousColored.jpg"
+    },
+    {
+        title: {
             en: "Appearance of the Speaker of God",
             ru: "Появление Говорящей Бога" 
         },
