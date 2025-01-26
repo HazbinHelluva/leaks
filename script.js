@@ -746,17 +746,16 @@ const items = [
     },
     {
         "title": {
-            "en": "FAKE | Beelzebub at the Hazbin Hotel",
-            "ru": "ФЕЙК | Вельзевул в Отеле Хазбин"
+            "en": "FAKE | Crymini at the Hazbin Hotel",
+            "ru": "ФЕЙК | Краймини в Отеле Хазбин"
         },
         "description": {
-            "en": "Vaggie and Beelzebub are arguing, Charlie tries to calm them down. It's definitely a fake since even though it's the same universe, Vivienne can't merge these 2 shows because of her contract with Amazon. Thanks to @Hz8397 (telegram) for sharing this",
-            "ru": "Вэгги и Вельзевул ссорятся, Чарли пытается их успокоить. Это точно фейк, так как несмотря на то, что это одна вселенная, Вивьен не может объединить эти 2 шоу из-за контракта с Амазон. Спасибо @Hz8397 (telegram) за то, что поделился этим"
+            "en": "Vaggie and Crymini (old character from pilot) are arguing, Charlie tries to calm them down. You can see from the drawing style that it's a fake. Also, since she never appeared in season 1, she was probably removed from the story. Originally, she was supposed to be Husk's daughter. Thanks to @Hz8397 (telegram) for sharing this",
+            "ru": "Вэгги и Краймини (старый персонаж из пилота) ссорятся, Чарли пытается их успокоить. По стилю рисовки видно, что это фейк. К тому же, раз она так и не появилась в 1 сезоне, то скорее всего ее убрали из сюжета. Изначально, она должна была быть дочерью Хаска. Спасибо @Hz8397 (telegram) за то, что поделился этим"
         },
         "tags": [
             "Photo",
             "Hazbin Hotel",
-            "Helluva Boss",
             "Fake"
         ],
         "media": "leaks/Fake/BeelzebubInHazbin.jpg",
