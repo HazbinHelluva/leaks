@@ -64,6 +64,7 @@ header a {
 .Hazbin-Hotel {background-color: #22396f;}
 .Helluva-Boss {background-color: #681f2c;}
 .Fake { background-color: #C70039; }
+.Fan-made { background-color: #696be6; }
 .Obsolete { background-color: #d7a21c; }
 .Other { background-color: #0072B2; }
 
@@ -310,4 +311,15 @@ header a {
 
 .fullscreen-btn:hover {
     background: rgba(0, 0, 0, 0.8);
+}
+
+.new-badge {
+    background: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    vertical-align: middle;
 }
