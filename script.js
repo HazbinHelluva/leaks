@@ -150,7 +150,6 @@ const items = [
             "Episode 2",
             "Song",
             "Video",
-            null,
             "Hazbin Hotel",
             "Other"
         ],
@@ -2698,11 +2697,16 @@ function renderItems(itemsToRender) {
         const tagsDiv = document.createElement('div');
         tagsDiv.className = 'tags';
         item.tags.forEach(tag => {
-            const span = document.createElement('span');
-            span.className = 'tag ' + tag.replace(/\s+/g, '-');
-            span.textContent = tag;
-            tagsDiv.appendChild(span);
+            if (typeof tag === "string") {  // Проверяем, что tag это строка
+                const span = document.createElement('span');
+                span.className = 'tag ' + tag.replace(/\s+/g, '-');
+                span.textContent = tag;
+                tagsDiv.appendChild(span);
+            } else {
+                console.warn("⛔ Пропущен некорректный тег:", tag, "в элементе:", item);
+            }
         });
+        
         cardBody.appendChild(tagsDiv);
 
         const a = document.createElement('a');
