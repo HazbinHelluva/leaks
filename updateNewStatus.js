@@ -32,6 +32,14 @@ function daysBetween(date1, date2) {
     return Math.floor((secondDate - firstDate) / (1000 * 60 * 60 * 24)); // Разница в днях
 }
 
+// Функция для очистки данных от null и undefined
+function cleanItem(item) {
+    if (Array.isArray(item.tags)) {
+        item.tags = item.tags.filter(tag => tag !== null && tag !== undefined);
+    }
+    return item;
+}
+
 // Обновляем статус isNew и id
 items.forEach(item => {
     if (item.dateAdded && item.isNew) {
@@ -41,6 +49,7 @@ items.forEach(item => {
             item.id = 0;
         }
     }
+    return cleanItem(item); // Очищаем item перед сохранением
 });
 
 // Преобразуем обратно в строку
