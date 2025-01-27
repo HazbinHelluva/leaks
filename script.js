@@ -1488,8 +1488,8 @@ const items = [
             "ru": "Вельвет раскрашенная - сцена из 4 эпизода"
         },
         "description": {
-            "en": "Scene from episode 4, in the news studio. Thanks to @Hz8397 (telegram) for sharing this",
-            "ru": "Сцена из 4 эпизода, в студии новостей. Спасибо @Hz8397 (telegram) за то, что поделился этим"
+            "en": "Scene from episode 4, in the news studio. Colored by @oriensep (telegram)",
+            "ru": "Сцена из 4 эпизода, в студии новостей. Раскрашено @oriensep (telegram)"
         },
         "tags": [
             "Episode 4",
