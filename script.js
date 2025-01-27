@@ -2071,6 +2071,26 @@ const items = [
     },
     {
         "title": {
+            "en": "Episode 2 - Sera fan colored",
+            "ru": "Эпизод 2 - цветной кадр с Серой (фан)"
+        },
+        "description": {
+            "en": 'A shot from the trial in colour, by @Hz8397 (telegram)',
+            "ru": 'Кадр из суда в цвете, автор @Hz8397 (telegram)'
+        },
+        "tags": [
+            "Episode 2",
+            "Photo",
+            "Hazbin Hotel",
+            "Fan made"
+        ],
+        "media": "leaks/images/SeraColored.png",
+        "id": 14,
+        "isNew": true,
+        "dateAdded": "27.01.2025"
+    },
+    {
+        "title": {
             "en": "Pentagram City Map",
             "ru": "Карта Пентаграм Сити"
         },
