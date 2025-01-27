@@ -1967,6 +1967,46 @@ const items = [
     },
     {
         "title": {
+            "en": "Episode 2 - Lute fan colored",
+            "ru": "Эпизод 2 - цветной кадр с Лют (фан)"
+        },
+        "description": {
+            "en": 'A moment from the "Like Gravity" song in colour, by @Hz8397 (telegram)',
+            "ru": 'Момент из песни "Like Gravity" в цвете, автор @Hz8397 (telegram)'
+        },
+        "tags": [
+            "Episode 2",
+            "Photo",
+            "Hazbin Hotel",
+            "Fan made"
+        ],
+        "media": "leaks/images/Lute.png",
+        "id": 12,
+        "isNew": true,
+        "dateAdded": "27.01.2025"
+    },
+    {
+        "title": {
+            "en": "Episode 2 - Lute and Adam fan colored",
+            "ru": "Эпизод 2 - цветной кадр с Лют и Адамом (фан)"
+        },
+        "description": {
+            "en": 'A moment from the "Like Gravity" song in colour, by @Hz8397 (telegram)',
+            "ru": 'Момент из песни "Like Gravity" в цвете, автор @Hz8397 (telegram)'
+        },
+        "tags": [
+            "Episode 2",
+            "Photo",
+            "Hazbin Hotel",
+            "Fan made"
+        ],
+        "media": "leaks/images/LuteAndAdam.png",
+        "id": 13,
+        "isNew": true,
+        "dateAdded": "27.01.2025"
+    },
+    {
+        "title": {
             "en": "Episode 2 - Sera photo 01",
             "ru": "Эпизод 2 - фото Серы 01"
         },
