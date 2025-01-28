@@ -1971,8 +1971,8 @@ const items = [
             "ru": "Эпизод 2 - цветной кадр с Лют (фан)"
         },
         "description": {
-            "en": 'A moment from the "Like Gravity" song in colour, by @Hz8397 (telegram)',
-            "ru": 'Момент из песни "Like Gravity" в цвете, автор @Hz8397 (telegram)'
+            "en": "A moment from the \"Like Gravity\" song in colour, by @Hz8397 (telegram)",
+            "ru": "Момент из песни \"Like Gravity\" в цвете, автор @Hz8397 (telegram)"
         },
         "tags": [
             "Episode 2",
@@ -1991,8 +1991,8 @@ const items = [
             "ru": "Эпизод 2 - цветной кадр с Лют и Адамом (фан)"
         },
         "description": {
-            "en": 'A moment from the "Like Gravity" song in colour, by @Hz8397 (telegram)',
-            "ru": 'Момент из песни "Like Gravity" в цвете, автор @Hz8397 (telegram)'
+            "en": "A moment from the \"Like Gravity\" song in colour, by @Hz8397 (telegram)",
+            "ru": "Момент из песни \"Like Gravity\" в цвете, автор @Hz8397 (telegram)"
         },
         "tags": [
             "Episode 2",
@@ -2075,8 +2075,8 @@ const items = [
             "ru": "Эпизод 2 - цветной кадр с Серой (фан)"
         },
         "description": {
-            "en": 'A shot from the trial in colour, by @Hz8397 (telegram)',
-            "ru": 'Кадр из суда в цвете, автор @Hz8397 (telegram)'
+            "en": "A shot from the trial in colour, by @Hz8397 (telegram)",
+            "ru": "Кадр из суда в цвете, автор @Hz8397 (telegram)"
         },
         "tags": [
             "Episode 2",
