@@ -342,8 +342,8 @@ const items = [
         ],
         "media": "leaks/ep2/fullep2withensub.mp4",
         "preview": "preview/fullep2withensub.jpg",
-        "id": 4,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -454,8 +454,8 @@ const items = [
         ],
         "media": "leaks/ep4/songs/FanColoredYouAreMyPet.mp4",
         "preview": "preview/FanColoredYouAreMyPet.jpg",
-        "id": 2,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -477,8 +477,8 @@ const items = [
         ],
         "media": "leaks/ep4/songs/YouAreMyPetwithVE.mp4",
         "preview": "preview/YouAreMyPetwithVE.jpg",
-        "id": 6,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -557,8 +557,8 @@ const items = [
         ],
         "media": "leaks/ep4/fullep4WithAlastorVE.mp4",
         "preview": "preview/fullep4WithAlastorVE.jpg",
-        "id": 5,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -670,8 +670,8 @@ const items = [
         ],
         "media": "leaks/ep6/FanColoredFullByScentedRose.mp4",
         "preview": "preview/FanColoredFullByScentedRose.jpg",
-        "id": 1,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -1702,8 +1702,8 @@ const items = [
             "Hazbin Hotel"
         ],
         "media": "leaks/images/KatieAndTomNoWatermark.png",
-        "id": 3,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
