@@ -1459,8 +1459,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/EmilyAndPentiousColored.jpg",
-        "id": 7,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "24.01.2025"
     },
     {
