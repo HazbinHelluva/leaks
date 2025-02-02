@@ -385,8 +385,8 @@ const items = [
         ],
         "media": "leaks/ep2/fullep2withensub.mp4",
         "preview": "preview/fullep2withensub.jpg",
-        "id": 4,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -497,8 +497,8 @@ const items = [
         ],
         "media": "leaks/ep4/songs/FanColoredYouAreMyPet.mp4",
         "preview": "preview/FanColoredYouAreMyPet.jpg",
-        "id": 2,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -520,8 +520,8 @@ const items = [
         ],
         "media": "leaks/ep4/songs/YouAreMyPetwithVE.mp4",
         "preview": "preview/YouAreMyPetwithVE.jpg",
-        "id": 6,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -600,8 +600,8 @@ const items = [
         ],
         "media": "leaks/ep4/fullep4WithAlastorVE.mp4",
         "preview": "preview/fullep4WithAlastorVE.jpg",
-        "id": 5,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -713,8 +713,8 @@ const items = [
         ],
         "media": "leaks/ep6/FanColoredFullByScentedRose.mp4",
         "preview": "preview/FanColoredFullByScentedRose.jpg",
-        "id": 1,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -1502,8 +1502,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/EmilyAndPentiousColored.jpg",
-        "id": 7,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "24.01.2025"
     },
     {
@@ -1745,8 +1745,8 @@ const items = [
             "Hazbin Hotel"
         ],
         "media": "leaks/images/KatieAndTomNoWatermark.png",
-        "id": 3,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "23.01.2025"
     },
     {
@@ -2034,8 +2034,8 @@ const items = [
             "ru": "Эпизод 2 - цветной кадр с Лют (фан)"
         },
         "description": {
-            "en": 'A moment from the "Like Gravity" song in colour, by @Hz8397 (telegram)',
-            "ru": 'Момент из песни "Like Gravity" в цвете, автор @Hz8397 (telegram)'
+            "en": "A moment from the \"Like Gravity\" song in colour, by @Hz8397 (telegram)",
+            "ru": "Момент из песни \"Like Gravity\" в цвете, автор @Hz8397 (telegram)"
         },
         "tags": [
             "Episode 2",
@@ -2054,8 +2054,8 @@ const items = [
             "ru": "Эпизод 2 - цветной кадр с Лют и Адамом (фан)"
         },
         "description": {
-            "en": 'A moment from the "Like Gravity" song in colour, by @Hz8397 (telegram)',
-            "ru": 'Момент из песни "Like Gravity" в цвете, автор @Hz8397 (telegram)'
+            "en": "A moment from the \"Like Gravity\" song in colour, by @Hz8397 (telegram)",
+            "ru": "Момент из песни \"Like Gravity\" в цвете, автор @Hz8397 (telegram)"
         },
         "tags": [
             "Episode 2",
@@ -2138,8 +2138,8 @@ const items = [
             "ru": "Эпизод 2 - цветной кадр с Серой (фан)"
         },
         "description": {
-            "en": 'A shot from the trial in colour, by @Hz8397 (telegram)',
-            "ru": 'Кадр из суда в цвете, автор @Hz8397 (telegram)'
+            "en": "A shot from the trial in colour, by @Hz8397 (telegram)",
+            "ru": "Кадр из суда в цвете, автор @Hz8397 (telegram)"
         },
         "tags": [
             "Episode 2",
