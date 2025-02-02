@@ -270,6 +270,27 @@ const items = [
     },
     {
         "title": {
+            "en": "Background from the Sera and Speaker song in colour and good quality",
+            "ru": "Фон из песни Серы и Говорящей в цвете и хорошем качестве"
+        },
+        "description": {
+            "en": "Made by @Ryth1m (telegram)",
+            "ru": "Сделано @Ryth1m (telegram)"
+        },
+        "tags": [
+            "Episode 2",
+            "Photo",
+            "BG",
+            "Hazbin Hotel",
+            "Fan made"
+        ],
+        "media": "leaks/images/SeraSongBG.jpg",
+        "id": 15,
+        "isNew": true,
+        "dateAdded": "02.02.2025"
+    },
+    {
+        "title": {
             "en": "Sera and Speaker of God song with English subtitles",
             "ru": "Песня Серы и Говорящей Бога с английскими субтитрами"
         },
@@ -323,6 +344,28 @@ const items = [
         ],
         "media": "leaks/ep2/full2Ep.mp4",
         "preview": "preview/full2Ep.jpg"
+    },
+    {
+        "title": {
+            "en": "Episode 2 - Storyteller with almost no watermarks",
+            "ru": "Эпизод 2 - Storyteller (Рассказчик) почти без водяных знаков"
+        },
+        "description": {
+            "en": "Ryth1m and dweathp1ll removed about half of the watermarks. @ItsThePS5Guy removed the rest, so there are almost no watermarks left, but the ones that are left have transparent backgrounds and don't disturb the viewing much",
+            "ru": "Ryth1m и dweathp1ll удалили примерно половину водяных знаков. @ItsThePS5Guy удалил все остальное, так что водяных знаков почти не осталось, но те что остались имеют прозрачный фон и не сильно мешают просмотру"
+        },
+        "tags": [
+            "Episode 2",
+            "Full episode",
+            "Video",
+            "English subs",
+            "Hazbin Hotel"
+        ],
+        "media": "leaks/ep2/fullep2nowatermark.mp4",
+        "preview": "preview/fullep2nowatermark.jpg",
+        "id": 16,
+        "isNew": true,
+        "dateAdded": "02.02.2025"
     },
     {
         "title": {
@@ -1903,6 +1946,26 @@ const items = [
     },
     {
         "title": {
+            "en": "Turkish phone 08",
+            "ru": "Телефон турка 08"
+        },
+        "description": {
+            "en": "Video of the leaker's gallery with lots of photos. Most of them are on this site",
+            "ru": "Видео галереи сливщика с множеством фотографий. Большинство из них есть на этом сайте"
+        },
+        "tags": [
+            "Video",
+            "Hazbin Hotel",
+            "Other"
+        ],
+        "media": "leaks/images/TurkishPhone08.mp4",
+        "preview": "preview/TurkishPhone08.jpg",
+        "id": 14,
+        "isNew": true,
+        "dateAdded": "02.02.2025"
+    },
+    {
+        "title": {
             "en": "Episode 2 - Lute photo 01",
             "ru": "Эпизод 2 - фото Лют 01"
         },
@@ -2650,9 +2713,10 @@ function renderItems(itemsToRender) {
             preview.src = item.preview;
             preview.className = 'video-preview';
             preview.alt = 'Video preview';
+            preview.loading = "lazy";
 
-            // Только одно видео такое есть
-            const isVertical = item.title["en"] == "Lots of refs from dogheadanimation";
+            // Теперь два таких
+            const isVertical = item.title["en"] == "Lots of refs from dogheadanimation" || item.title["en"] == "Turkish phone 08";
 
             const playButton = document.createElement('i');
             playButton.className = 'fas fa-play play-btn';
@@ -2718,6 +2782,7 @@ function renderItems(itemsToRender) {
             img.alt = item.title[currentLanguage];
             img.className = 'card-img-top';
             img.style.cursor = 'pointer';
+            img.loading = "lazy";
 
             img.addEventListener('click', function () {
                 openModal(item.media);
