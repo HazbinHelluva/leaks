@@ -801,8 +801,8 @@ const items = [
             "Fake"
         ],
         "media": "leaks/Fake/BeelzebubInHazbin.jpg",
-        "id": 11,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "26.01.2025"
     },
     {
@@ -1521,8 +1521,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/BaxterColored.jpg",
-        "id": 8,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "26.01.2025"
     },
     {
@@ -1541,8 +1541,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/VelvetteColored.jpg",
-        "id": 9,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "26.01.2025"
     },
     {
@@ -1561,8 +1561,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/ImInLoveWithYouSantaClaus_Colored.jpg",
-        "id": 10,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "26.01.2025"
     },
     {
