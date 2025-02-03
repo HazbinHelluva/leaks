@@ -2044,8 +2044,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/Lute.png",
-        "id": 12,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "27.01.2025"
     },
     {
@@ -2064,8 +2064,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/LuteAndAdam.png",
-        "id": 13,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "27.01.2025"
     },
     {
@@ -2148,8 +2148,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/SeraColored.png",
-        "id": 14,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "27.01.2025"
     },
     {
