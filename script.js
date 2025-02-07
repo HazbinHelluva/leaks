@@ -285,7 +285,7 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/SeraSongBG.jpg",
-        "id": 15,
+        "id": 2,
         "isNew": true,
         "dateAdded": "02.02.2025"
     },
@@ -363,7 +363,7 @@ const items = [
         ],
         "media": "leaks/ep2/fullep2nowatermark.mp4",
         "preview": "preview/fullep2nowatermark.jpg",
-        "id": 16,
+        "id": 3,
         "isNew": true,
         "dateAdded": "02.02.2025"
     },
@@ -716,6 +716,28 @@ const items = [
         "id": 0,
         "isNew": false,
         "dateAdded": "23.01.2025"
+    },
+    {
+        "title": {
+            "en": "Full 15 second clip coloured by ScentedRoses | Final version",
+            "ru": "Полный 15 секундный отрывок раскрашенный ScentedRoses | Финальная версия"
+        },
+        "description": {
+            "en": "Final version. Remade + Lip sync fixed. By the.scented.roses (discord)",
+            "ru": "Финальная версия. Переделана + исправлен липсинк. Автор the.scented.roses (discord)"
+        },
+        "tags": [
+            "Episode 6",
+            "Video",
+            "English subs",
+            "Hazbin Hotel",
+            "Fan made"
+        ],
+        "media": "leaks/ep6/Ep6ScentedRosesFinalVer.mp4",
+        "preview": "preview/Ep6ScentedRosesFinalVer.jpg",
+        "id": 5,
+        "isNew": true,
+        "dateAdded": "08.02.2025"
     },
     {
         "title": {
@@ -1342,6 +1364,108 @@ const items = [
     },
     {
         "title": {
+            "en": "Niffty's roach in anime style HQ",
+            "ru": "Таракан Ниффти в стиле аниме HQ"
+        },
+        "description": {
+            "en": "Quality improved by fans, found at this x: https://x.com/FatAdamBigD",
+            "ru": "Качество улучшено фанатами, нашла в этом x: https://x.com/FatAdamBigD"
+        },
+        "tags": [
+            "Photo",
+            "Ref sheet",
+            "Hazbin Hotel",
+            "Fan made"
+        ],
+        "media": "leaks/images/AnimeRoachHQ.jpg",
+        "id": 7,
+        "isNew": true,
+        "dateAdded": "08.02.2025"
+    },
+    {
+        "title": {
+            "en": "FAKE | Angel sweater cropped",
+            "ru": "ФЕЙК | Укороченный свитер Энджела"
+        },
+        "description": {
+            "en": "Fake, found at this x: https://x.com/FatAdamBigD",
+            "ru": "Фейк, нашла в этом x: https://x.com/FatAdamBigD"
+        },
+        "tags": [
+            "Photo",
+            "Ref sheet",
+            "Hazbin Hotel",
+            "Fake"
+        ],
+        "media": "leaks/Fake/AngelHQ.jpg",
+        "id": 8,
+        "isNew": true,
+        "dateAdded": "08.02.2025"
+    },
+    {
+        "title": {
+            "en": "FAKE | Angel dress drag",
+            "ru": "ФЕЙК | Утягивающее платье Энджела"
+        },
+        "description": {
+            "en": "Redrawing of the original leak of Molly (Angel's sister) in the same dress. The original is of pretty poor quality, can be found by searching for \"Turkish phone\"",
+            "ru": "Перерисовка оригинального слива Молли (сестры Энджела) в этом же платье. Оригинал имеет довольно плохое качество, можно найти по поиску \"Телефон турка\""
+        },
+        "tags": [
+            "Photo",
+            "Ref sheet",
+            "Hazbin Hotel",
+            "Fake"
+        ],
+        "media": "leaks/Fake/AngelDragDressHQ.jpg",
+        "id": 9,
+        "isNew": true,
+        "dateAdded": "08.02.2025"
+    },
+    {
+        "title": {
+            "en": "FAKE | An excerpt from episode 8 with Vox and Alastor",
+            "ru": "ФЕЙК | Отрывок из 8 эпизода с Воксом и Аластором"
+        },
+        "description": {
+            "en": "Fake, found at this x: https://x.com/FatAdamBigD",
+            "ru": "Фейк, нашла в этом x: https://x.com/FatAdamBigD"
+        },
+        "tags": [
+            "Video",
+            "Hazbin Hotel",
+            "Fake"
+        ],
+        "media": "leaks/Fake/VoxAndAlastor.mp4",
+        "preview": "preview/VoxAndAlastor.jpg",
+        "id": 10,
+        "isNew": true,
+        "dateAdded": "08.02.2025"
+    },
+    {
+        "title": {
+            "en": "FAKE | Excerpt from Niffty's song from episode 4",
+            "ru": "ФЕЙК | Отрывок из песни Ниффти из 4 эпизода"
+        },
+        "description": {
+            "en": "Vivienne confirmed that Niffty will have a song in season 2 and according to the anime references for episode 4, we can assume it will be it, but this song is fake, found at this x: https://x.com/FatAdamBigD",
+            "ru": "Вивьен подтвердила, что у Ниффти будет песня во втором сезоне и по аниме референсам для 4 эпизода, можно предположить что это будет он, но данная песня фейк, нашла в этом x: https://x.com/FatAdamBigD"
+        },
+        "tags": [
+            "Video",
+            "Episode 4",
+            "Song",
+            "Hazbin Hotel",
+            "Fake"
+        ],
+        "media": "leaks/Fake/NifftySong.mp4",
+        "preview": "preview/NifftySong.jpg",
+        "id": 11,
+        "isNew": true,
+        "dateAdded": "08.02.2025"
+    },
+    {
+        "title": {
             "en": "Baxter Reference",
             "ru": "Референс Бакстера"
         },
@@ -1960,7 +2084,7 @@ const items = [
         ],
         "media": "leaks/images/TurkishPhone08.mp4",
         "preview": "preview/TurkishPhone08.jpg",
-        "id": 14,
+        "id": 1,
         "isNew": true,
         "dateAdded": "02.02.2025"
     },
@@ -2404,6 +2528,25 @@ const items = [
     },
     {
         "title": {
+            "en": "Vox Reference HQ",
+            "ru": "Референс Вокса HQ"
+        },
+        "description": {
+            "en": "Fixed coloring and text errors (by ScentedRoses) Fixed fonts (by PS5Guy on discord)",
+            "ru": "Исправлены ошибки цвета и текста (автор ScentedRoses) Исправлены шрифты (автор PS5Guy в discord)"
+        },
+        "tags": [
+            "Photo",
+            "Ref sheet",
+            "Hazbin Hotel"
+        ],
+        "media": "leaks/images/VOX HQ SHEET SCENTEDROSES.png",
+        "id": 4,
+        "isNew": true,
+        "dateAdded": "08.02.2025"
+    },
+    {
+        "title": {
             "en": "Fan redrawn Vox reference to improve quality [1/3]",
             "ru": "Фанатский перерисованый референс Вокса, чтобы улучшить качество [1/3]"
         },
@@ -2644,6 +2787,26 @@ const items = [
             "Hazbin Hotel"
         ],
         "media": "leaks/images/SkeletonDancer.jpg"
+    },
+    {
+        "title": {
+            "en": "Skeleton dancer HQ",
+            "ru": "Танцор скелет HQ"
+        },
+        "description": {
+            "en": "Quality improved by fans, found at this x: https://x.com/FatAdamBigD",
+            "ru": "Качество улучшено фанатами, нашла в этом x: https://x.com/FatAdamBigD"
+        },
+        "tags": [
+            "Photo",
+            "Ref sheet",
+            "Hazbin Hotel",
+            "Fan made"
+        ],
+        "media": "leaks/images/SkeletonDancerHQ.jpg",
+        "id": 6,
+        "isNew": true,
+        "dateAdded": "08.02.2025"
     },
     {
         "title": {
