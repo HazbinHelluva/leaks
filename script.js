@@ -285,8 +285,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/SeraSongBG.jpg",
-        "id": 2,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "02.02.2025"
     },
     {
@@ -363,8 +363,8 @@ const items = [
         ],
         "media": "leaks/ep2/fullep2nowatermark.mp4",
         "preview": "preview/fullep2nowatermark.jpg",
-        "id": 3,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "02.02.2025"
     },
     {
@@ -2084,8 +2084,8 @@ const items = [
         ],
         "media": "leaks/images/TurkishPhone08.mp4",
         "preview": "preview/TurkishPhone08.jpg",
-        "id": 1,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "02.02.2025"
     },
     {
