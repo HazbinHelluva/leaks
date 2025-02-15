@@ -735,8 +735,8 @@ const items = [
         ],
         "media": "leaks/ep6/Ep6ScentedRosesFinalVer.mp4",
         "preview": "preview/Ep6ScentedRosesFinalVer.jpg",
-        "id": 5,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "08.02.2025"
     },
     {
@@ -1378,8 +1378,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/AnimeRoachHQ.jpg",
-        "id": 7,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "08.02.2025"
     },
     {
@@ -1398,8 +1398,8 @@ const items = [
             "Fake"
         ],
         "media": "leaks/Fake/AngelHQ.jpg",
-        "id": 8,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "08.02.2025"
     },
     {
@@ -1418,8 +1418,8 @@ const items = [
             "Fake"
         ],
         "media": "leaks/Fake/AngelDragDressHQ.jpg",
-        "id": 9,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "08.02.2025"
     },
     {
@@ -1438,8 +1438,8 @@ const items = [
         ],
         "media": "leaks/Fake/VoxAndAlastor.mp4",
         "preview": "preview/VoxAndAlastor.jpg",
-        "id": 10,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "08.02.2025"
     },
     {
@@ -1460,8 +1460,8 @@ const items = [
         ],
         "media": "leaks/Fake/NifftySong.mp4",
         "preview": "preview/NifftySong.jpg",
-        "id": 11,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "08.02.2025"
     },
     {
@@ -2541,8 +2541,8 @@ const items = [
             "Hazbin Hotel"
         ],
         "media": "leaks/images/VOX HQ SHEET SCENTEDROSES.png",
-        "id": 4,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "08.02.2025"
     },
     {
@@ -2804,8 +2804,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/SkeletonDancerHQ.jpg",
-        "id": 6,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "08.02.2025"
     },
     {
