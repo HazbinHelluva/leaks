@@ -1024,6 +1024,25 @@ const items = [
     },
     {
         "title": {
+            "en": "FAKE | A shot of Vox and the kidnapped Alastor",
+            "ru": "ФЕЙК | Кадр с Воксом и похищенным Аластором"
+        },
+        "description": {
+            "en": "Vox will actually kidnap Alastor, but this shot is fake, confirmed by the person who drew it",
+            "ru": "Вокс действительно похитит Аластора, но этот кадр фейк, подтвержденный человеком, что рисовал это"
+        },
+        "tags": [
+            "Photo",
+            "Hazbin Hotel",
+            "Fake"
+        ],
+        "media": "leaks/Fake/VoxAlastorFake.jpg",
+        "id": 1,
+        "isNew": true,
+        "dateAdded": "17.02.2025"
+    },
+    {
+        "title": {
             "en": "Cut scene from episode 10 of Helluva Boss",
             "ru": "Вырезанная сцена из 10 серии Адского Босса"
         },
@@ -1544,6 +1563,43 @@ const items = [
             "Hazbin Hotel"
         ],
         "media": "leaks/images/Charlie_sheet_02.jpg"
+    },
+    {
+        "title": {
+            "en": "Charlie covers with blanket - No watermark",
+            "ru": "Чарли накрывается одеялом - Без водяного знака"
+        },
+        "description": {
+            "en": "Watermark removed by @Hz8397 (telegram)",
+            "ru": "Водяной знак удален @Hz8397 (telegram)"
+        },
+        "tags": [
+            "Photo",
+            "Hazbin Hotel"
+        ],
+        "media": "leaks/images/Charlie_blanket_cover_no_watermark.png",
+        "id": 2,
+        "isNew": true,
+        "dateAdded": "17.02.2025"
+    },
+    {
+        "title": {
+            "en": "Charlie in a dress - High quality",
+            "ru": "Чарли в платье - Высокое качество"
+        },
+        "description": {
+            "en": "Quality improved by @Hz8397 (telegram)",
+            "ru": "Качество улучшено @Hz8397 (telegram)"
+        },
+        "tags": [
+            "Photo",
+            "Hazbin Hotel",
+            "Fan made"
+        ],
+        "media": "leaks/images/charlie_dress_HQ.png",
+        "id": 3,
+        "isNew": true,
+        "dateAdded": "17.02.2025"
     },
     {
         "title": {
