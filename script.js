@@ -1037,8 +1037,8 @@ const items = [
             "Fake"
         ],
         "media": "leaks/Fake/VoxAlastorFake.jpg",
-        "id": 1,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "17.02.2025"
     },
     {
@@ -1578,8 +1578,8 @@ const items = [
             "Hazbin Hotel"
         ],
         "media": "leaks/images/Charlie_blanket_cover_no_watermark.png",
-        "id": 2,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "17.02.2025"
     },
     {
@@ -1597,8 +1597,8 @@ const items = [
             "Fan made"
         ],
         "media": "leaks/images/charlie_dress_HQ.png",
-        "id": 3,
-        "isNew": true,
+        "id": 0,
+        "isNew": false,
         "dateAdded": "17.02.2025"
     },
     {
